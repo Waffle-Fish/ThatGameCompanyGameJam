@@ -21,6 +21,7 @@ public class CustomerScriptableObject : ScriptableObject
         Debug.Log("Awake");
         InitializeFoodOrder();
         GetFoodOrderTotal();
+        if (FoodOrder.Count == 0) Debug.LogWarning("No Food in Customer Order");
     }
 
     public void OnDestroy()
