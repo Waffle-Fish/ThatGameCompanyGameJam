@@ -9,9 +9,9 @@ public class FoodScriptableObject : ScriptableObject
     public List<IngredientScriptableObject> Ingredients;
     public Sprite Sprite;
 
-    public float GetTotalCost()
+    public int GetTotalCost()
     {
-        float totalCost = 0;
+        int totalCost = 0;
         foreach (var ing in Ingredients)
         {
             totalCost += ing.Cost;
