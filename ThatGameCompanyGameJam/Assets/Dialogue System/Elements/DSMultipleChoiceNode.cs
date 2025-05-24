@@ -30,6 +30,8 @@ namespace DS.Elements
                 text = "Add Choice"
             };
 
+            AddChoiceButton.AddToClassList("ds-node__button");
+
             mainContainer.Insert(1, AddChoiceButton);
 
             // Output Container
@@ -39,15 +41,21 @@ namespace DS.Elements
 
                 ChoicePort.portName = "";
 
-                Button ChoicePortButton = new Button()
+                Button DeleteChoiceButton = new Button()
                 {
                     text = "X"
                 };
+
+                DeleteChoiceButton.AddToClassList("ds-node__button");
 
                 TextField ChoiceTextField = new TextField()
                 {
                     value = Choice
                 };
+
+                ChoiceTextField.AddToClassList("ds-node__textfield");
+                ChoiceTextField.AddToClassList("ds-node__choice-textfield");
+                ChoiceTextField.AddToClassList("ds-node__textfield__hidden");
 
                 ChoicePort.Add(ChoiceTextField);
             }

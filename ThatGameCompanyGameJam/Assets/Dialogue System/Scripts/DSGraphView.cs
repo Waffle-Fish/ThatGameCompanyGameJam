@@ -8,6 +8,7 @@ using UnityEngine.UIElements;
 namespace DS.Windows
 {
     using Elements;
+    using Enumerations;
     public class DSGraphView : GraphView
     {
         public DSGraphView()
@@ -23,7 +24,8 @@ namespace DS.Windows
         {
             SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
 
-            this.AddManipulator(CreateNodeContextualMenu());
+            this.AddManipulator(CreateNodeContextualMenu("Add Node (Single Choice)", DSDialogueType.SingleChoice));
+            this.AddManipulator(CreateNodeContextualMenu("Add Node (Multiple Choice)",DSDialogueType.MultipleChoice));
             this.AddManipulator(new ContentDragger());
             this.AddManipulator(new SelectionDragger());
             this.AddManipulator(new RectangleSelector());
@@ -38,9 +40,10 @@ namespace DS.Windows
             Insert(0, gridBackground);
         }
 
-        private DSNode CreateNode(Vector2 position)
+        private DSNode CreateNode(DSDialogueType DialogueType, Vector2 position)
         {
-            DSNode Node = new DSNode();
+            Type NodeType = Type.GetType($"DS.Elements.DS{DialogueType}Node");
+            DSNode Node = (DSNode) Activator.CreateInstance(NodeType);
             Node.Initialize(position);
             Node.Draw();
 
@@ -49,14 +52,17 @@ namespace DS.Windows
 
         private void AddStyles()
         {
-            StyleSheet styleSheet = (StyleSheet)EditorGUIUtility.Load("DSGraphViewStyles.uss");
-            styleSheets.Add(styleSheet);
+            StyleSheet GraphViewStyleSheet = (StyleSheet)EditorGUIUtility.Load("DSGraphViewStyles.uss");
+            StyleSheet NodeStyleSheet = (StyleSheet)EditorGUIUtility.Load("DSNodeStyles.uss");
+            styleSheets.Add(GraphViewStyleSheet);
+            styleSheets.Add(NodeStyleSheet);
+
         }
 
-        private IManipulator CreateNodeContextualMenu()
+        private IManipulator CreateNodeContextualMenu(string ActionTitle, DSDialogueType DialogueType)
         {
             ContextualMenuManipulator ContextMenu = new ContextualMenuManipulator(
-                MenuEvent => MenuEvent.menu.AppendAction("Add Node", ActionEvent => AddElement(CreateNode(ActionEvent.eventInfo.localMousePosition))));
+                MenuEvent => MenuEvent.menu.AppendAction(ActionTitle, ActionEvent => AddElement(CreateNode(DialogueType, ActionEvent.eventInfo.localMousePosition))));
 
             return ContextMenu;
         }
