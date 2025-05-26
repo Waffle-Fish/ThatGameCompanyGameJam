@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384254b5d4a1faf4e91c40a46fba2f58, type: 3}
   m_Name: ApplePie
   m_EditorClassIdentifier: 
-  DisplayName: CoastalOrchardPie
+  DisplayName: Coastal Orchard Pie
   Ingredients:
   - {fileID: 11400000, guid: bed81bd1cbcc41243861c487eb11c3eb, type: 2}
   - {fileID: 11400000, guid: 6c3a94fe039ba5040b072920306ef8c5, type: 2}

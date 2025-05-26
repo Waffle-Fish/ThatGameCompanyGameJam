@@ -60,4 +60,10 @@ public class RegisterManager : MonoBehaviour
     {
         return totalToCheck < 1000000000 && totalToCheck > 0;
     }
+
+    private void SubmitTotal()
+    {
+        Debug.Log("You owe " + CurrentTotal);
+        ClearTotal();
+    }
 }
