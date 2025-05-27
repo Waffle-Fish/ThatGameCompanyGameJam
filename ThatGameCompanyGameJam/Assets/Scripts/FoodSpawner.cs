@@ -68,6 +68,11 @@ public class FoodSpawner : MonoBehaviour
         {
             foodObject.GetComponent<SpriteRenderer>().sprite = foodSO.Sprite;
             foodObject.transform.localScale = foodSO.Scale;
+            
+            List<Vector2> newPointsList = new();
+            Sprite spriteRef = foodObject.GetComponent<SpriteRenderer>().sprite;
+            spriteRef.GetPhysicsShape(0, newPointsList);
+            foodObject.GetComponent<PolygonCollider2D>().points = newPointsList.ToArray();
         }
     }
 

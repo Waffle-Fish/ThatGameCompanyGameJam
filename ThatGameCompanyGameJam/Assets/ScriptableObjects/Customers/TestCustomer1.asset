@@ -18,9 +18,5 @@ MonoBehaviour:
   - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
   - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
   - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
-  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
-  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
-  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
-  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
   RandomizedFoodOrders: {fileID: 0}
   NumRandomFood: 0
