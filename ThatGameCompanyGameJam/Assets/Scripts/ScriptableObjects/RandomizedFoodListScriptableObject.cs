@@ -8,7 +8,7 @@ using UnityEngine;
 public class RandomizedFoodListScriptableObject : ScriptableObject
 {
     [Tooltip("If any probablities are < 0.01f, all probabilities will be set to equal")]
-    public List<Tuple<FoodScriptableObject, float>> FoodList;
+    public List<Tuple<FoodBehavior, float>> FoodList;
 
     public void EqualizeChance()
     {
@@ -52,7 +52,7 @@ public class RandomizedFoodListScriptableObject : ScriptableObject
         }
     }
 
-    public FoodScriptableObject RandomlyPickOne()
+    public FoodBehavior RandomlyPickOne()
     {
         float num = UnityEngine.Random.Range(0f, 1f);
         int i = 0;

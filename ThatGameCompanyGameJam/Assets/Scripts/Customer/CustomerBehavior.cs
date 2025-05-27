@@ -4,25 +4,47 @@ using UnityEngine;
 public class CustomerBehavior : MonoBehaviour
 {
     [SerializeField] CustomerScriptableObject customerSO;
-    private List<FoodScriptableObject> Order;
     private SpriteRenderer spriteRenderer;
+    private FoodSpawner foodSpawner;
 
-    private void Awake() {
+    private void Awake()
+    {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        foodSpawner = FoodSpawner.Instance;
+
+        customerSO.InitializeFoodOrder();
     }
 
     void Start()
     {
-        if (customerSO.CustomerSprite) spriteRenderer.sprite = customerSO.CustomerSprite;
+        if (customerSO == null)
+        {
+            Debug.LogError(name + " has no Customer SO!");
+            return;
+        }
+        // foodSpawner = FoodSpawner.Instance;
     }
 
-    void Update()
+    private void OnEnable()
     {
-
+        // if (customerSO != null) DisplayOrder();
+        DisplayOrder();
     }
 
-    private void DisplayOrder()
+    private void OnDisable() {
+        ProcessLeave();
+    }
+
+    public void DisplayOrder()
     {
-        
+        foreach (var order in customerSO.FoodOrder)
+        {
+            foodSpawner.PlaceFood(order.FoodSO);
+        }
+    }
+
+    private void ProcessLeave()
+    {
+        foodSpawner.ReleaseAllActive();
     }
 }

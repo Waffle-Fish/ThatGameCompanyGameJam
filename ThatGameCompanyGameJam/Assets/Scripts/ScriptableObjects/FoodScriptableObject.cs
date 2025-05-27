@@ -5,9 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DefaultFood", menuName = "FoodSO", order = 0)]
 public class FoodScriptableObject : ScriptableObject
 {
-    public String DisplayName;
-    public List<IngredientScriptableObject> Ingredients;
     public Sprite Sprite;
+    public List<IngredientScriptableObject> Ingredients;
 
     public int GetTotalCost()
     {

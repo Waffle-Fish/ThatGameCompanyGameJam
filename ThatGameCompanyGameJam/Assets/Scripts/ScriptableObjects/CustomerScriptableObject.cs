@@ -7,23 +7,14 @@ using UnityEngine;
 public class CustomerScriptableObject : ScriptableObject
 {
     public Sprite CustomerSprite;
-    public List<FoodScriptableObject> GuranteedFoodOrders;
+    public List<FoodBehavior> GuranteedFoodOrders;
     public RandomizedFoodListScriptableObject RandomizedFoodOrders;
 
     [Min(0)]
     public int NumRandomFood;
 
-    public List<FoodScriptableObject> FoodOrder { get; private set; }
+    public List<FoodBehavior> FoodOrder { get; private set; }
     public int FoodOrderTotalCost { get; private set; } = 0;
-
-    public void Awake()
-    {
-        Debug.Log("Awake");
-        FoodOrder = new();
-        InitializeFoodOrder();
-        GetFoodOrderTotal();
-        if (FoodOrder.Count == 0) Debug.LogWarning("CustomerSO: No Food in Customer Order");
-    }
 
     public void OnDestroy()
     {
@@ -32,25 +23,26 @@ public class CustomerScriptableObject : ScriptableObject
         FoodOrderTotalCost = 0;
     }
 
-    private void InitializeFoodOrder()
+    public void InitializeFoodOrder()
     {
         if (GuranteedFoodOrders == null || GuranteedFoodOrders.Count == 0) return;
-        if (!RandomizedFoodOrders || RandomizedFoodOrders.FoodList.Count == 0) return;
-
+        FoodOrder = new();
         FoodOrder.AddRange(GuranteedFoodOrders);
+        
+        if (!RandomizedFoodOrders || RandomizedFoodOrders.FoodList.Count == 0) return;
         for (int i = 0; i < NumRandomFood; i++)
         {
             FoodOrder.Add(RandomizedFoodOrders.RandomlyPickOne());
         }
     }
 
-    private void GetFoodOrderTotal()
+    public void GetFoodOrderTotal()
     {
         FoodOrderTotalCost = 0;
         if (FoodOrder == null) return;
         foreach (var food in FoodOrder)
         {
-            FoodOrderTotalCost += food.GetTotalCost();
+            FoodOrderTotalCost += food.FoodSO.GetTotalCost();
         }
     }
 }
