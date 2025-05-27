@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384254b5d4a1faf4e91c40a46fba2f58, type: 3}
   m_Name: EarthMedly
   m_EditorClassIdentifier: 
-  DisplayName: Earth Medly
+  Sprite: {fileID: -855298285791758126, guid: 8681a9b31f624cc4f821395cc2aa1efe, type: 3}
+  Scale: {x: 0.2, y: 0.2}
   Ingredients:
   - {fileID: 11400000, guid: 0f2f94307dd5fec4eadf2510877e3f87, type: 2}
   - {fileID: 11400000, guid: 52a2c3308331a784b85ae5abb150c6b4, type: 2}
   - {fileID: 11400000, guid: d77e8f825324d6d4f895bc2621937695, type: 2}
   - {fileID: 11400000, guid: d77e8f825324d6d4f895bc2621937695, type: 2}
-  Sprite: {fileID: 0}

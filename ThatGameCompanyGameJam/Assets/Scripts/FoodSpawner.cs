@@ -55,12 +55,20 @@ public class FoodSpawner : MonoBehaviour
         FoodBehavior foodObject = objectPool.Get();
         foodObject.FoodSO = foodSO;
 
-        Vector2 pos = transform.position;
-        float xOffset = Random.Range(-boundaryBox.x / 2f, boundaryBox.x / 2f);
-        float yOffset = Random.Range(-boundaryBox.y / 2f, boundaryBox.y / 2f);
-        pos.x += xOffset;
-        pos.y += yOffset;
-        foodObject.transform.position = pos;
+        Vector2 pos = Vector2.zero;
+        float xOffset = -boundaryBox.x / 2f + 0.5f;
+        float yOffset = boundaryBox.y / 2f - 0.5f;
+        float xCellSize = boundaryBox.x / 4f;
+        float yCellSize = boundaryBox.y / 2f;
+        pos.x += xCellSize * ((activeObjects.Count-1) % 4f) + xOffset;
+        pos.y += -yCellSize * ((activeObjects.Count-1) / 4) + yOffset;
+        foodObject.transform.localPosition = pos;
+
+        if (foodSO.Sprite != null)
+        {
+            foodObject.GetComponent<SpriteRenderer>().sprite = foodSO.Sprite;
+            foodObject.transform.localScale = foodSO.Scale;
+        }
     }
 
     public void ReleaseAllActive()

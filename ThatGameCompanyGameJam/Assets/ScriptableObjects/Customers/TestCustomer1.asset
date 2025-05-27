@@ -16,5 +16,11 @@ MonoBehaviour:
   GuranteedFoodOrders:
   - {fileID: 5411440514128022370, guid: b8c6e939dac2999499834fc1bf4be550, type: 3}
   - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
   RandomizedFoodOrders: {fileID: 0}
   NumRandomFood: 0

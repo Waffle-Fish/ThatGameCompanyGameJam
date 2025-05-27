@@ -6,6 +6,7 @@ using UnityEngine;
 public class FoodScriptableObject : ScriptableObject
 {
     public Sprite Sprite;
+    [Min(0f)] public Vector2 Scale;
     public List<IngredientScriptableObject> Ingredients;
 
     public int GetTotalCost()
