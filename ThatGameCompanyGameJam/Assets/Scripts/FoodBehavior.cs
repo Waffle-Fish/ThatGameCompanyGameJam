@@ -7,7 +7,7 @@ using UnityEngine.Pool;
 
 public class FoodBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] public float yOffset = 0.725f;
+    public float TextYOffset = 0.725f;
     public FoodScriptableObject FoodSO;
 
     private IObjectPool<FoodBehavior> objectPool;
@@ -29,13 +29,13 @@ public class FoodBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         UpdateText();
     }
 
-    private void UpdateText()
+    public void UpdateText()
     {
         foreach (var tmp in tmps)
         {
             tmp.text = FoodSO.name;
             tmp.rectTransform.localScale = Vector3.one * TEXT_SCALE / transform.localScale.x;
-            tmp.rectTransform.position = new(tmp.rectTransform.position.x, tmp.rectTransform.position.y + yOffset);
+            tmp.rectTransform.position = new(tmp.rectTransform.position.x, tmp.rectTransform.position.y + TextYOffset);
         }
     }
 

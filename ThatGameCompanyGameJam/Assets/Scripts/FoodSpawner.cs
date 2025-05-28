@@ -54,6 +54,7 @@ public class FoodSpawner : MonoBehaviour
     {
         FoodBehavior foodObject = objectPool.Get();
         foodObject.FoodSO = foodSO;
+        foodObject.UpdateText();
 
         Vector2 pos = Vector2.zero;
         float xOffset = -boundaryBox.x / 2f + 0.5f;

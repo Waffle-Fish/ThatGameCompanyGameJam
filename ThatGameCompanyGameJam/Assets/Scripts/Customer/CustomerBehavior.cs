@@ -14,17 +14,7 @@ public class CustomerBehavior : MonoBehaviour
 
         customerSO.InitializeFoodOrder();
     }
-
-    void Start()
-    {
-        if (customerSO == null)
-        {
-            Debug.LogError(name + " has no Customer SO!");
-            return;
-        }
-        // foodSpawner = FoodSpawner.Instance;
-    }
-
+    
     private void OnEnable()
     {
         // if (customerSO != null) DisplayOrder();

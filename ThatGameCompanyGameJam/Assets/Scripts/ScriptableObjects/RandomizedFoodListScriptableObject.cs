@@ -4,11 +4,24 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [Serializable]
+public class FoodDrop
+{
+    public FoodBehavior Food;
+    public float DropChance;
+
+    public FoodDrop(FoodBehavior food, float probablity)
+    {
+        Food = food;
+        DropChance = probablity;
+    }
+}
+
+[Serializable]
 [CreateAssetMenu(fileName = "RandomFoodList", menuName = "RandomizedFoodLists", order = 0)]
 public class RandomizedFoodListScriptableObject : ScriptableObject
 {
     [Tooltip("If any probablities are < 0.01f, all probabilities will be set to equal")]
-    public List<Tuple<FoodBehavior, float>> FoodList;
+    public List<FoodDrop> FoodList;
 
     public void EqualizeChance()
     {
@@ -21,7 +34,7 @@ public class RandomizedFoodListScriptableObject : ScriptableObject
         float probablity = 1 / (float)FoodList.Count;
         for (int i = 0; i < FoodList.Count; i++)
         {
-            FoodList[i] = Tuple.Create(FoodList[i].Item1, probablity);
+            FoodList[i] = new FoodDrop(FoodList[i].Food, probablity);
         }
     }
 
@@ -35,20 +48,20 @@ public class RandomizedFoodListScriptableObject : ScriptableObject
 
         float totalProbability = 0f;
         if (Mathf.Approximately(totalProbability, 1f)) return;
-        foreach (var food in FoodList)
+        foreach (FoodDrop food in FoodList)
         {
-            if (food.Item2 < 0.01f)
+            if (food.DropChance < 0.01f)
             {
                 EqualizeChance();
                 return;
             }
-            totalProbability += food.Item2;
+            totalProbability += food.DropChance;
         }
 
         for (int i = 0; i < FoodList.Count; i++)
         {
-            float newProb = FoodList[i].Item2 / totalProbability;
-            FoodList[i] = Tuple.Create(FoodList[i].Item1, newProb);
+            float newProb = FoodList[i].DropChance / totalProbability;
+            FoodList[i] = new FoodDrop(FoodList[i].Food, newProb);
         }
     }
 
@@ -58,9 +71,9 @@ public class RandomizedFoodListScriptableObject : ScriptableObject
         int i = 0;
         float total = 0;
         while (num > total && i < FoodList.Count) {
-            total += FoodList[i].Item2;
+            total += FoodList[i].DropChance;
             i++;
         } 
-        return FoodList[i].Item1;
+        return FoodList[i].Food;
     }
 }

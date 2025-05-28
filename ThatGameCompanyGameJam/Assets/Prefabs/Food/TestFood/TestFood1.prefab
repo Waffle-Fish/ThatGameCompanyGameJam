@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb3ac70eee2c5a041be3cfc56aa6f072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yOffset: 0.725
+  TextYOffset: 0.725
   FoodSO: {fileID: 11400000, guid: 40bc1b95ffe3eea42bedf594fb32e1d9, type: 2}
 --- !u!210 &5098687132724558277
 SortingGroup:
@@ -232,7 +232,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 5}
+  m_SizeDelta: {x: 30, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2128206688593614510
 MeshRenderer:
@@ -408,7 +408,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 5}
+  m_SizeDelta: {x: 30, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &4297012713638613524
 MeshRenderer:
