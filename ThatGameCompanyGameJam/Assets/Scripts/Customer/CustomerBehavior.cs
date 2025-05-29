@@ -6,31 +6,31 @@ using UnityEngine;
 public class CustomerBehavior : MonoBehaviour
 {
     [SerializeField] CustomerScriptableObject customerSO;
+    [SerializeField] AnimationClip enterAnimation;
+    [SerializeField] AnimationClip exitAnimation;
+
     private SpriteRenderer spriteRenderer;
     private FoodSpawner foodSpawner;
-
     private TextMeshPro dialogueTMP;
+    private GameObject speechBubbleObj;
     private Color originalTextColor;
-    // float MoneyOnHand = 0f;
+    private Animator animator;
 
     private void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         foodSpawner = FoodSpawner.Instance;
-        dialogueTMP = GetComponentInChildren<TextMeshPro>();
+        dialogueTMP = GetComponentInChildren<TextMeshPro>(true);
+        animator = GetComponent<Animator>();
+
+        speechBubbleObj = dialogueTMP.transform.parent.gameObject;
         originalTextColor = dialogueTMP.color;
         customerSO.InitializeFoodOrder();
     }
 
     private void OnEnable()
     {
-        // if (customerSO != null) DisplayOrder();
-        DisplayOrder();
-    }
-
-    private void OnDisable()
-    {
-        ProcessLeave();
+        StartCoroutine(ProcessEntrance());
     }
 
     public void DisplayOrder()
@@ -41,10 +41,20 @@ public class CustomerBehavior : MonoBehaviour
         }
         PlayDialouge("I'll have these please");
     }
-
-    private void ProcessLeave()
+    public IEnumerator ProcessEntrance()
     {
+        animator.SetTrigger("Enter");
+        yield return new WaitForSeconds(enterAnimation.length);
+        DisplayOrder();
+    }
+
+    public IEnumerator ProcessExit()
+    {
+        speechBubbleObj.SetActive(false);
         foodSpawner.ReleaseAllActive();
+        animator.SetTrigger("Exit");
+        yield return new WaitForSeconds(exitAnimation.length);
+        gameObject.SetActive(false);
     }
 
     private void PlayDialouge(string dialouge)
@@ -56,6 +66,7 @@ public class CustomerBehavior : MonoBehaviour
             // StartCoroutine(FadeText());
         }
 
+        if (!speechBubbleObj.activeSelf) speechBubbleObj.SetActive(true);
         dialogueTMP.color = originalTextColor;
         dialogueTMP.text = dialouge;
         // StartCoroutine(TextDuration(1f));

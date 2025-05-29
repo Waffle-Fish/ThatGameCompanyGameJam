@@ -26,6 +26,7 @@ public class CustomersManager : MonoBehaviour
             currentCustomerIndex++;
             currentCustomer = transform.GetChild(currentCustomerIndex).GetComponent<CustomerBehavior>();
             currentCustomer.gameObject.SetActive(true);
+            // currentCustomer.GetComponent<Animator>
         }
         catch (System.Exception)
         {
@@ -36,7 +37,7 @@ public class CustomersManager : MonoBehaviour
 
     public void DespawnCurrentCustomer()
     {
-        currentCustomer.gameObject.SetActive(false);
+        StartCoroutine(currentCustomer.ProcessExit());
         currentCustomer = null;
     }
 
