@@ -2,7 +2,14 @@ using UnityEngine;
 
 public class CustomersManager : MonoBehaviour
 {
+    public static CustomersManager Instance { get; private set; }
     int currentCustomerIndex = -1;
+    CustomerBehavior currentCustomer;
+
+    private void Awake() {
+        if (Instance != null && Instance != this) Destroy(this);
+        else Instance = this;
+    }
 
     void Start()
     {
@@ -17,7 +24,8 @@ public class CustomersManager : MonoBehaviour
         try
         {
             currentCustomerIndex++;
-            transform.GetChild(currentCustomerIndex).gameObject.SetActive(true);
+            currentCustomer = transform.GetChild(currentCustomerIndex).GetComponent<CustomerBehavior>();
+            currentCustomer.gameObject.SetActive(true);
         }
         catch (System.Exception)
         {
@@ -28,6 +36,12 @@ public class CustomersManager : MonoBehaviour
 
     public void DespawnCurrentCustomer()
     {
-        transform.GetChild(currentCustomerIndex).gameObject.SetActive(false);
+        currentCustomer.gameObject.SetActive(false);
+        currentCustomer = null;
+    }
+
+    public void ChargeCurrentCustomer(int amountCharged)
+    {
+        currentCustomer.Pay(amountCharged);
     }
 }

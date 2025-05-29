@@ -11,6 +11,7 @@ public class CustomerBehavior : MonoBehaviour
 
     private TextMeshPro dialogueTMP;
     private Color originalTextColor;
+    // float MoneyOnHand = 0f;
 
     private void Awake()
     {
@@ -60,7 +61,8 @@ public class CustomerBehavior : MonoBehaviour
         // StartCoroutine(TextDuration(1f));
     }
 
-    private IEnumerator FadeText() {
+    private IEnumerator FadeText()
+    {
         float r = originalTextColor.r;
         float g = originalTextColor.g;
         float b = originalTextColor.b;
@@ -71,6 +73,26 @@ public class CustomerBehavior : MonoBehaviour
             a -= decreaseRate;
             dialogueTMP.color = new Color(r, g, b, a);
             yield return null;
+        }
+    }
+
+    public void Pay(int chargedAmount)
+    {
+        int actualOrderCost = customerSO.GetFoodOrderTotal();
+        if (chargedAmount > actualOrderCost + 1)
+        {
+            Debug.Log("Why did you charge me so much! Whatever, take it.");
+            PlayDialouge("Why did you charge me so much! Whatever, take it.");
+        }
+        else if (chargedAmount < actualOrderCost - 1)
+        {
+            Debug.Log("Thanks for the discount!");
+            PlayDialouge("Thanks for the discount!");
+        }
+        else
+        {
+            Debug.Log("Ah you charged me just the right amount!");
+            PlayDialouge("Ah you charged me just the right amount!");
         }
     }
 }

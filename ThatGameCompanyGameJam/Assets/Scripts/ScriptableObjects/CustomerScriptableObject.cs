@@ -37,13 +37,14 @@ public class CustomerScriptableObject : ScriptableObject
         // }
     }
 
-    public void GetFoodOrderTotal()
+    public int GetFoodOrderTotal()
     {
         FoodOrderTotalCost = 0;
-        if (FoodOrder == null) return;
+        if (FoodOrder == null) return 0;
         foreach (var food in FoodOrder)
         {
             FoodOrderTotalCost += food.FoodSO.GetTotalCost();
         }
+        return FoodOrderTotalCost;
     }
 }

@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class RegisterManager : MonoBehaviour
 {
-    public uint CurrentTotal = 0;
+    public int CurrentTotal = 0;
     [SerializeField] TextMeshProUGUI tmp;
 
     private void OnEnable()
     {
         RegisterNumberButton.OnRegisterKeyPressed += ShiftIncreaseTotal;
+    }
+
+    private void OnDisable() {
+        RegisterNumberButton.OnRegisterKeyPressed -= ShiftIncreaseTotal;
     }
 
     void Start()
@@ -19,9 +23,9 @@ public class RegisterManager : MonoBehaviour
 
     public void ShiftIncreaseTotal(int val)
     {
-        if (!WithinLimits(CurrentTotal * 10 + (uint)val)) return;
+        if (!WithinLimits(CurrentTotal * 10 + val)) return;
         CurrentTotal *= 10;
-        CurrentTotal += (uint)val;
+        CurrentTotal += val;
         UpdateTotalText();
     }
 
@@ -56,14 +60,15 @@ public class RegisterManager : MonoBehaviour
         tmp.text = CurrentTotal.ToString();
     }
 
-    private bool WithinLimits(uint totalToCheck)
+    private bool WithinLimits(int totalToCheck)
     {
         return totalToCheck < 1000000000 && totalToCheck > 0;
     }
 
-    private void SubmitTotal()
+    public void SubmitTotal()
     {
-        Debug.Log("You owe " + CurrentTotal);
+        CustomersManager.Instance.ChargeCurrentCustomer(CurrentTotal);
+        Debug.Log("You owe: " + CurrentTotal);
         ClearTotal();
     }
 }
