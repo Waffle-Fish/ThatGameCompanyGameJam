@@ -8,13 +8,13 @@ namespace DS.Elements
 {
     using Utilities;
     using Enumerations;
-
+    using Windows;
 
     public class DSMultipleChoiceNode : DSNode
     {
-        public override void Initialize(Vector2 position)
+        public override void Initialize(DSGraphView  dsGraphView, Vector2 position)
         {
-            base.Initialize(position);
+            base.Initialize(dsGraphView, position);
 
             DialogueType = DSDialogueType.MultipleChoice;
 
@@ -59,7 +59,7 @@ namespace DS.Elements
 
             DeleteChoiceButton.AddToClassList("ds-node__button");
 
-            TextField ChoiceTextField = DSElementUtility.CreateTextField(choice);
+            TextField ChoiceTextField = DSElementUtility.CreateTextField(choice, null);
 
             ChoiceTextField.AddClasses(
                 "ds-node__textfield",

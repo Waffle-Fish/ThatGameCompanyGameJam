@@ -40,7 +40,7 @@ namespace DS.Windows
                 new SearchTreeEntry(new GUIContent("Single Group", IndentationIcon))
                 {
                     level = 2,
-                    userData = new Group()
+                    userData = new DSGroup("New Group", context.screenMousePosition)
                 }
             };
 
@@ -69,8 +69,7 @@ namespace DS.Windows
                     }
                 case Group _:
                     {
-                        Group group = View.CreateGroup("DialogueGroup", LocalMousePosition);
-                        View.AddElement(group);
+                        View.CreateGroup("DialogueGroup", LocalMousePosition);
 
                         return true;
                     }

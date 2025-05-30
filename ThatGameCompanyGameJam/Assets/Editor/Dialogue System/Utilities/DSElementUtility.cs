@@ -38,11 +38,12 @@ namespace DS.Utilities
             return port;
         }
 
-        public static TextField CreateTextField(string value = null, EventCallback<ChangeEvent<string>> OnValueChanged = null)
+        public static TextField CreateTextField(string value = null, string label = null, EventCallback<ChangeEvent<string>> OnValueChanged = null)
         {
             TextField NodeTextField = new TextField()
             {
-                value = value
+                value = value,
+                label = label
             };
 
             if (OnValueChanged != null)
@@ -53,9 +54,9 @@ namespace DS.Utilities
             return NodeTextField;
         }
 
-        public static TextField CreateTextArea(string value = null, EventCallback<ChangeEvent<string>> OnValueChanged = null)
+        public static TextField CreateTextArea(string value = null, string label = null, EventCallback<ChangeEvent<string>> OnValueChanged = null)
         {
-            TextField NodeTextArea = CreateTextField(value, OnValueChanged);
+            TextField NodeTextArea = CreateTextField(value, null, OnValueChanged);
             NodeTextArea.multiline = true;
 
             return NodeTextArea;
