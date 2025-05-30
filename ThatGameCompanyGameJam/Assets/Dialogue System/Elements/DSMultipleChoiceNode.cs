@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 
 namespace DS.Elements
 {
+    using Utilities;
     using Enumerations;
 
 
@@ -25,10 +26,14 @@ namespace DS.Elements
             base.Draw();
 
             // Main Container
-            Button AddChoiceButton = new Button()
+            Button AddChoiceButton = DSElementUtility.CreateButton("Add Choice", () =>
             {
-                text = "Add Choice"
-            };
+                Port ChoicePort = CreateChoicePort("New Choice");
+
+                Choices.Add("New Choice");
+
+                outputContainer.Add(ChoicePort);
+            });
 
             AddChoiceButton.AddToClassList("ds-node__button");
 
@@ -37,31 +42,35 @@ namespace DS.Elements
             // Output Container
             foreach (string Choice in Choices)
             {
-                Port ChoicePort = InstantiatePort(Orientation.Horizontal, Direction.Output, Port.Capacity.Single, typeof(bool));
+                Port ChoicePort = CreateChoicePort(Choice);
 
-                ChoicePort.portName = "";
-
-                Button DeleteChoiceButton = new Button()
-                {
-                    text = "X"
-                };
-
-                DeleteChoiceButton.AddToClassList("ds-node__button");
-
-                TextField ChoiceTextField = new TextField()
-                {
-                    value = Choice
-                };
-
-                ChoiceTextField.AddToClassList("ds-node__textfield");
-                ChoiceTextField.AddToClassList("ds-node__choice-textfield");
-                ChoiceTextField.AddToClassList("ds-node__textfield__hidden");
-
-                ChoicePort.Add(ChoiceTextField);
+                outputContainer.Add(ChoicePort);
             }
 
             RefreshExpandedState();
         }
+
+        #region Element Creation
+        private Port CreateChoicePort(string choice)
+        {
+            Port ChoicePort = this.CreatePort();
+
+            Button DeleteChoiceButton = DSElementUtility.CreateButton("X");
+
+            DeleteChoiceButton.AddToClassList("ds-node__button");
+
+            TextField ChoiceTextField = DSElementUtility.CreateTextField(choice);
+
+            ChoiceTextField.AddClasses(
+                "ds-node__textfield",
+                "ds-node__choice-textfield",
+                "ds-node__textfield__hidden"
+                );
+
+            ChoicePort.Add(ChoiceTextField);
+            return ChoicePort;
+        }
+        #endregion
     }
 }
 

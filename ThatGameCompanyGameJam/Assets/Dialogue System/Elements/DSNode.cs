@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEditor.Experimental.GraphView;
 
 namespace DS.Elements
 {
     using Enumerations;
-
+    using Utilities;
+    using Elements;
 
     public class DSNode : Node
     {
@@ -31,21 +31,17 @@ namespace DS.Elements
         public virtual void Draw()
         {
             // Title Container
-            TextField DialogueNameTextField = new TextField()
-            {
-                value = DialogueName
-            };
+            TextField DialogueNameTextField = DSElementUtility.CreateTextField(DialogueName);
 
-            DialogueNameTextField.AddToClassList("ds-node__textfield");
-            DialogueNameTextField.AddToClassList("ds-node__filename-textfield");
-            DialogueNameTextField.AddToClassList("ds-node__textfield__hidden");
+            DialogueNameTextField.AddClasses(
+                "ds-node__textfield", 
+                "ds-node__filename-textfield", 
+                "ds-node__textfield__hidden");
 
             titleContainer.Insert(0, DialogueNameTextField);
 
             // Input Container
-            Port InputPort = InstantiatePort(Orientation.Horizontal, Direction.Input, Port.Capacity.Multi, typeof(bool));
-
-            InputPort.portName = "Dialogue Connection";
+            Port InputPort = this.CreatePort("Dialogue Connection", Orientation.Horizontal, Direction.Input, Port.Capacity.Multi);
 
             inputContainer.Add(InputPort);
 
@@ -55,18 +51,14 @@ namespace DS.Elements
 
             CustomDataContainer.AddToClassList("DS-node__custom-data-container");
 
-            Foldout TextFoldout = new Foldout()
-            {
-                text = "Dialogue Text"
-            };
+            Foldout TextFoldout = DSElementUtility.CreateFoldout("Dialogue Text");
 
-            TextField MainTextField = new TextField()
-            {
-                value = Text
-            };
+            TextField MainTextField = DSElementUtility.CreateTextArea(Text);
 
-            MainTextField.AddToClassList("ds-node__textfield");
-            MainTextField.AddToClassList("ds-node__quote-textfield");
+            MainTextField.AddClasses(
+               "ds-node__textfield",
+               "ds-node__quote-textfield"
+                );
 
             TextFoldout.Add(MainTextField);
             CustomDataContainer.Add(TextFoldout);

@@ -6,6 +6,8 @@ using UnityEditor.Experimental.GraphView;
 namespace DS.Elements
 {
     using Enumerations;
+    using Utilities;
+    using Elements; 
     public class DSSingleChoiceNode : DSNode
     {
         public override void Initialize(Vector2 position)
@@ -24,9 +26,7 @@ namespace DS.Elements
             // Output Container
             foreach (string Choice in Choices)
             {
-                Port ChoicePort = InstantiatePort(Orientation.Horizontal, Direction.Output, Port.Capacity.Single, typeof(bool));
-
-                ChoicePort.portName = Choice;
+                Port ChoicePort = this.CreatePort(Choice);
             }
 
             RefreshExpandedState();
