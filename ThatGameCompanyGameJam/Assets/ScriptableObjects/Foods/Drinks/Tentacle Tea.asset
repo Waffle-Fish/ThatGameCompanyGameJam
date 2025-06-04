@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384254b5d4a1faf4e91c40a46fba2f58, type: 3}
+  m_Name: Tentacle Tea
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: -1538576826988826639, guid: 1a778f97ff1fba34aa6cb9fbe843a383, type: 3}
+  Scale: 0.5
+  Ingredients:
+  - {fileID: 11400000, guid: 8095ce382e0c071419e81e7f8f6b6278, type: 2}
+  - {fileID: 11400000, guid: 9fab26eff0394ca48a08d04171e06c19, type: 2}

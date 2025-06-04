@@ -68,7 +68,7 @@ public class FoodSpawner : MonoBehaviour
         if (foodSO.Sprite != null)
         {
             foodObject.GetComponent<SpriteRenderer>().sprite = foodSO.Sprite;
-            foodObject.transform.localScale = foodSO.Scale;
+            foodObject.transform.localScale = Vector2.one * foodSO.Scale;
             
             List<Vector2> newPointsList = new();
             Sprite spriteRef = foodObject.GetComponent<SpriteRenderer>().sprite;
