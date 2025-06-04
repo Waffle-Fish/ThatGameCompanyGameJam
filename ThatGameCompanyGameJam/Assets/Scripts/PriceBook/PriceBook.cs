@@ -4,11 +4,13 @@ using UnityEngine.EventSystems;
 public class PriceBook : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     GameObject bookPopUp;
+    SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         bookPopUp = transform.GetChild(0).gameObject;
-        bookPopUp.SetActive(false);  
+        bookPopUp.SetActive(false);
     }
 
     void Start()
@@ -36,6 +38,7 @@ public class PriceBook : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         if (!bookPopUp.activeSelf)
         {
+            spriteRenderer.enabled = false;
             bookPopUp.SetActive(true);
         }
     }

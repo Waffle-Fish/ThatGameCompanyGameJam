@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public abstract class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
+public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] AudioClip hoverSFX;
     [SerializeField] AudioClip clickSFX;
@@ -37,11 +37,11 @@ public abstract class CustomButton : MonoBehaviour, IPointerDownHandler, IPointe
 
     protected void PlayHoverSFX()
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 
     protected void PlayClickSFX()
     {
-        throw new System.NotImplementedException();
+        // throw new System.NotImplementedException();
     }
 }
