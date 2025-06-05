@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EyeballTadpoleBoba_v1_0: -9152066444588841685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

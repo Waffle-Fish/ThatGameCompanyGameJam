@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BookPopupCloseButton_v1_0: -5280197819640332650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
