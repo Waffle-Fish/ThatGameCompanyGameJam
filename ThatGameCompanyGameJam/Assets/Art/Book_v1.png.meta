@@ -116,12 +116,12 @@ TextureImporter:
       name: Book_v1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 507
-        height: 437
+        x: 0
+        y: 0
+        width: 525
+        height: 455
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Book_v1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e58302987198740a506623402732da
+      internalID: -493335781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8891c1c0b42f75049a693215fca062f1
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +169,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Book_v1_1: -493335781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

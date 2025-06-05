@@ -2210,7 +2210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quota: 0
-  timeBetweenCustomers: 1
+  timeBetweenCustomers: 5
 --- !u!1 &1312103335
 GameObject:
   m_ObjectHideFlags: 0
