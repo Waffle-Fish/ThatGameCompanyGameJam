@@ -43,6 +43,6 @@ public class CustomersManager : MonoBehaviour
 
     public void ChargeCurrentCustomer(int amountCharged)
     {
-        currentCustomer.Pay(amountCharged);
+        if (currentCustomer) currentCustomer.Pay(amountCharged);
     }
 }

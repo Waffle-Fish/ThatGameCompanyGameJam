@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 94237a00d4f17bf4193f51ef9343300d
+guid: 6355d5f4855c2f2458c93e5efea6370f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5634305376815468803
-    second: RegisterPopupBG_v1_0
+      213: -2211452859571994347
+    second: Register_Outline_v2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RegisterPopupBG_v1_0
+      name: Register_Outline_v2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1432
-        height: 1207
+        width: 716
+        height: 690
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfe27d29c1deec1b0800000000000000
-      internalID: -5634305376815468803
+      spriteID: 51180bb47575f41e0800000000000000
+      internalID: -2211452859571994347
       vertices: []
       indices: 
       edges: []

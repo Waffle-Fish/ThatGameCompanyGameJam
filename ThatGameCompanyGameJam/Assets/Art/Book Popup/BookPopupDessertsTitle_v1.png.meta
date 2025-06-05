@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 970343698ba588148a08c5ad12fb18fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1322106512899488057
+    second: BookPopupDessertsTitle_v1_0
+  - first:
+      213: 6341790423589483855
+    second: BookPopupDessertsTitle_v1_1
+  - first:
+      213: -5953763289904135588
+    second: BookPopupDessertsTitle_v1_2
+  - first:
+      213: -5957841462687493
+    second: BookPopupDessertsTitle_v1_3
+  - first:
+      213: -5664320196612190972
+    second: BookPopupDessertsTitle_v1_4
+  - first:
+      213: -8961123320371541936
+    second: BookPopupDessertsTitle_v1_5
+  - first:
+      213: 821865293576086790
+    second: BookPopupDessertsTitle_v1_6
+  - first:
+      213: 2317442586082955364
+    second: BookPopupDessertsTitle_v1_7
+  - first:
+      213: -2848833519448082013
+    second: BookPopupDessertsTitle_v1_8
+  - first:
+      213: 6448874839525548680
+    second: BookPopupDessertsTitle_v1_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939ba906ed0195210800000000000000
+      internalID: 1322106512899488057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 54
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45760e3ac0920850800000000000000
+      internalID: 6341790423589483855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 57
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52c08c05dbff5da0800000000000000
+      internalID: -5953763289904135588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 62
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf80dffef55daeff0800000000000000
+      internalID: -5957841462687493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 68
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d0cd2caca4461b0800000000000000
+      internalID: -5664320196612190972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 77
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05809c471d1b3a380800000000000000
+      internalID: -8961123320371541936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 66
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60523dc412ad76b00800000000000000
+      internalID: 821865293576086790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 65
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46056d2f0c5392020800000000000000
+      internalID: 2317442586082955364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 318
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a932110209e678d0800000000000000
+      internalID: -2848833519448082013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsTitle_v1_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 243
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882efdabf710f7950800000000000000
+      internalID: 6448874839525548680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BookPopupDessertsTitle_v1_0: 1322106512899488057
+      BookPopupDessertsTitle_v1_1: 6341790423589483855
+      BookPopupDessertsTitle_v1_2: -5953763289904135588
+      BookPopupDessertsTitle_v1_3: -5957841462687493
+      BookPopupDessertsTitle_v1_4: -5664320196612190972
+      BookPopupDessertsTitle_v1_5: -8961123320371541936
+      BookPopupDessertsTitle_v1_6: 821865293576086790
+      BookPopupDessertsTitle_v1_7: 2317442586082955364
+      BookPopupDessertsTitle_v1_8: -2848833519448082013
+      BookPopupDessertsTitle_v1_9: 6448874839525548680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 472927de197ef7248b483809ecd97d76
+guid: 1aaf50872e272ed40934219c0c45d26b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8632140015471248236
-    second: Register4Button_v1_0
+      213: -7589314168006945576
+    second: Book_Outline_v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Register4Button_v1_0
+      name: Book_Outline_v1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
-        height: 70
+        width: 525
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49cb666146a743880800000000000000
-      internalID: -8632140015471248236
+      spriteID: 8d45b1f59f65da690800000000000000
+      internalID: -7589314168006945576
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Register4Button_v1_0: -8632140015471248236
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

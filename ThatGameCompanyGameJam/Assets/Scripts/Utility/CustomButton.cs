@@ -7,7 +7,7 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     [SerializeField] AudioClip hoverSFX;
     [SerializeField] AudioClip clickSFX;
     
-    private Image buttonImg;
+    protected Image buttonImg;
 
     private void Start()
     {
