@@ -1,23 +1,35 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class RegisterSubmitButton : CustomButton
 {
-    [SerializeField][Range(0f, 1f)] float hoverAlpha = 0.9f;
     Animator animator;
     RegisterManager registerManager;
+    Button button;
+
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         registerManager = GetComponentInParent<RegisterManager>();
+        button = GetComponent<Button>();
     }
 
     public override void OnPointerUp(PointerEventData eventData)
     {
+        IEnumerator DelayClose()
+        {
+            button.interactable = false;
+            yield return new WaitForSeconds(0.25f);
+            button.interactable = true;
+            registerManager.gameObject.SetActive(false);
+        }
         animator.SetBool("Pressed", false);
         registerManager.SubmitTotal();
         // play sfx
+        StartCoroutine(DelayClose());
     }
 
     public override void OnPointerDown(PointerEventData eventData)

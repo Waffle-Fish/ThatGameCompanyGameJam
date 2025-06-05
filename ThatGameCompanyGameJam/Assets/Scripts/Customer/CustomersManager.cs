@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class CustomersManager : MonoBehaviour
@@ -5,10 +7,22 @@ public class CustomersManager : MonoBehaviour
     public static CustomersManager Instance { get; private set; }
     int currentCustomerIndex = -1;
     CustomerBehavior currentCustomer;
+    int revenue = 0;
+    
+    public static Action<int> OnDespawnCurrentCustomer;
 
-    private void Awake() {
+    private void Awake()
+    {
         if (Instance != null && Instance != this) Destroy(this);
         else Instance = this;
+    }
+
+    private void OnEnable() {
+        GameManager.OnSpawnNextCustomer += SpawnNextCustomer;
+    }
+
+    private void OnDisable() {
+        GameManager.OnSpawnNextCustomer -= SpawnNextCustomer;
     }
 
     void Start()
@@ -21,17 +35,15 @@ public class CustomersManager : MonoBehaviour
 
     public void SpawnNextCustomer()
     {
-        try
+        currentCustomerIndex++;
+        if (currentCustomerIndex >= transform.childCount)
         {
-            currentCustomerIndex++;
+            Debug.Log("End of day!");
+        }
+        else
+        {
             currentCustomer = transform.GetChild(currentCustomerIndex).GetComponent<CustomerBehavior>();
             currentCustomer.gameObject.SetActive(true);
-            // currentCustomer.GetComponent<Animator>
-        }
-        catch (System.Exception)
-        {
-            Debug.LogError("Trying to activate a non-existent child - customerIndex: " + currentCustomerIndex);
-            throw;
         }
     }
 
@@ -39,10 +51,23 @@ public class CustomersManager : MonoBehaviour
     {
         StartCoroutine(currentCustomer.ProcessExit());
         currentCustomer = null;
+        OnDespawnCurrentCustomer?.Invoke(revenue);
+        revenue = 0;
     }
 
     public void ChargeCurrentCustomer(int amountCharged)
     {
-        if (currentCustomer) currentCustomer.Pay(amountCharged);
+        IEnumerator DelayDespawn()
+        {
+            yield return new WaitForSeconds(5f);
+            DespawnCurrentCustomer();
+        }
+
+        if (currentCustomer)
+        {
+            revenue = amountCharged;
+            currentCustomer.Pay(amountCharged);
+            StartCoroutine(DelayDespawn());
+        }
     }
 }
