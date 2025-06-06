@@ -5,7 +5,7 @@ using UnityEngine;
 public class CustomersManager : MonoBehaviour
 {
     public static CustomersManager Instance { get; private set; }
-    int currentCustomerIndex = -1;
+    public int CurrentCustomerIndex { get; private set; } = -1;
     CustomerBehavior currentCustomer;
     int revenue = 0;
 
@@ -37,14 +37,14 @@ public class CustomersManager : MonoBehaviour
 
     public void SpawnNextCustomer()
     {
-        currentCustomerIndex++;
-        if (currentCustomerIndex >= transform.childCount)
+        CurrentCustomerIndex++;
+        if (CurrentCustomerIndex >= transform.childCount)
         {
             Debug.Log("End of day!");
         }
         else
         {
-            currentCustomer = transform.GetChild(currentCustomerIndex).GetComponent<CustomerBehavior>();
+            currentCustomer = transform.GetChild(CurrentCustomerIndex).GetComponent<CustomerBehavior>();
             currentCustomer.gameObject.SetActive(true);
         }
     }
