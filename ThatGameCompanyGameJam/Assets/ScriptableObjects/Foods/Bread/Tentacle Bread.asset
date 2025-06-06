@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tentacle Bread
   m_EditorClassIdentifier: 
   Sprite: {fileID: -555737930945949930, guid: 1125e45e953ab3e4387645d57a62ef3a, type: 3}
-  Scale: 0.5
+  Scale: 0.4
   Ingredients:
   - {fileID: 11400000, guid: d7d98d7aa18b1ec4dad2accb71a6125a, type: 2}
   - {fileID: 11400000, guid: 9fab26eff0394ca48a08d04171e06c19, type: 2}

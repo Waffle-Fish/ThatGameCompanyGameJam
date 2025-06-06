@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7dcc9b63a17bbe14db2e709dbe4ce1cf
+guid: 26abf7d13ed185e479d2f51e95efe47c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5172504870738502765
-    second: HUDArrow_v1_0
+      213: 4414026040921907878
+    second: TentacleFrenchBread_v1_0
+  - first:
+      213: -8015660635558010519
+    second: TentacleFrenchBread_v1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUDArrow_v1_0
+      name: TentacleFrenchBread_v1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 68
-        height: 142
+        x: 8
+        y: 9
+        width: 620
+        height: 524
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d64a85b56cd68c740800000000000000
-      internalID: 5172504870738502765
+      spriteID: 6a269763c45c14d30800000000000000
+      internalID: 4414026040921907878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TentacleFrenchBread_v1_1
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 100
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961ab79ee17a2c090800000000000000
+      internalID: -8015660635558010519
       vertices: []
       indices: 
       edges: []

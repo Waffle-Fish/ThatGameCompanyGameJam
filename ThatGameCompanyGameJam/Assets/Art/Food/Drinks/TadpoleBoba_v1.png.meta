@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7dcc9b63a17bbe14db2e709dbe4ce1cf
+guid: cab841d3a03899d46bf756f728546af5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5172504870738502765
-    second: HUDArrow_v1_0
+      213: 5635213045074221814
+    second: TadpoleBoba_v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUDArrow_v1_0
+      name: TadpoleBoba_v1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 68
-        height: 142
+        x: 9
+        y: 9
+        width: 223
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d64a85b56cd68c740800000000000000
-      internalID: 5172504870738502765
+      spriteID: 6fadb49686c443e40800000000000000
+      internalID: 5635213045074221814
       vertices: []
       indices: 
       edges: []

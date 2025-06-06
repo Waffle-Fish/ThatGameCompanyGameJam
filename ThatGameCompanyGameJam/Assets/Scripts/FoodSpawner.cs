@@ -8,7 +8,7 @@ public class FoodSpawner : MonoBehaviour
     [SerializeField] private FoodBehavior foodPrefab;
     [Tooltip("Width & height of where food can spawn. Center is transform.position")]
 
-    [SerializeField][Min(0f)] private Vector2 boundaryBox;
+    [SerializeField][Min(0f)] private Vector2 itemSpacing;
 
     private IObjectPool<FoodBehavior> objectPool;
     private List<FoodBehavior> activeObjects;
@@ -57,12 +57,8 @@ public class FoodSpawner : MonoBehaviour
         foodObject.UpdateText();
 
         Vector2 pos = Vector2.zero;
-        float xOffset = -boundaryBox.x / 2f + 0.5f;
-        float yOffset = boundaryBox.y / 2f - 0.5f;
-        float xCellSize = boundaryBox.x / 4f;
-        float yCellSize = boundaryBox.y / 2f;
-        pos.x += xCellSize * ((activeObjects.Count-1) % 4f) + xOffset;
-        pos.y += -yCellSize * ((activeObjects.Count-1) / 4) + yOffset;
+        pos.x += itemSpacing.x * ((activeObjects.Count-1) % 4f);
+        // pos.y = ((activeObjects.Count % 2 == 0) ? 0 : -1) * itemSpacing.y;
         foodObject.transform.localPosition = pos;
 
         if (foodSO.Sprite != null)

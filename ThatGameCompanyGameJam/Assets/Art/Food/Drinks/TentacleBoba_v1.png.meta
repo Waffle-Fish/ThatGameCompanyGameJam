@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d30bede04415ce40906b1054ae1b01f
+guid: 28f2b5326851d344f9d8cdb51aad415b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2768039138852981675
-    second: HUD_BG_v1_0
+      213: -1538576826988826639
+    second: TentacleBoba_v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUD_BG_v1_0
+      name: TentacleBoba_v1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 541
-        height: 446
+        x: 9
+        y: 9
+        width: 223
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: babc5bb5eec0a6620800000000000000
-      internalID: 2768039138852981675
+      spriteID: 1ffeeaf0780e5aae0800000000000000
+      internalID: -1538576826988826639
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      HUD_BG_v1_0: 2768039138852981675
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

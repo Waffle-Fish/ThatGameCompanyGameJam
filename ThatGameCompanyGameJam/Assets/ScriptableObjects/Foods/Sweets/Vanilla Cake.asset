@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Vanilla Cake
   m_EditorClassIdentifier: 
   Sprite: {fileID: 4290297378547487819, guid: d82297301ffa6694ca5de3a60773f6b1, type: 3}
-  Scale: 0.5
+  Scale: 0.4
   Ingredients:
   - {fileID: 11400000, guid: 08d6c03a63dfe1f4d89ec880a9916f95, type: 2}

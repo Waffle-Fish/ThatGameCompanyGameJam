@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7dcc9b63a17bbe14db2e709dbe4ce1cf
+guid: c664fc6644246a4458108a92f8e45287
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5172504870738502765
-    second: HUDArrow_v1_0
+      213: 2788960806847544433
+    second: BonesFrenchBread_Outline_v2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUDArrow_v1_0
+      name: BonesFrenchBread_Outline_v2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
-        height: 142
+        width: 563
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d64a85b56cd68c740800000000000000
-      internalID: 5172504870738502765
+      spriteID: 17c72a8c31164b620800000000000000
+      internalID: 2788960806847544433
       vertices: []
       indices: 
       edges: []

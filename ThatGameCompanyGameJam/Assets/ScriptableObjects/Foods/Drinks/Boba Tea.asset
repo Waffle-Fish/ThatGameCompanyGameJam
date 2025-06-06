@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Boba Tea
   m_EditorClassIdentifier: 
   Sprite: {fileID: -31942071972185620, guid: 4ed9ffed94c256a47b6fcb55d63d4c76, type: 3}
-  Scale: 0.5
+  Scale: 0.4
   Ingredients:
   - {fileID: 11400000, guid: 8095ce382e0c071419e81e7f8f6b6278, type: 2}
