@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56fa28ba7a42bf48bc7bf5dabddc8c4, type: 3}
+  m_Name: TestCustomer1
+  m_EditorClassIdentifier: 
+  CustomerSprite: {fileID: 0}
+  GuranteedFoodOrders:
+  - {fileID: 5411440514128022370, guid: b8c6e939dac2999499834fc1bf4be550, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  - {fileID: 5411440514128022370, guid: 9e4aa63bb4a43074fbd447a386531301, type: 3}
+  RandomizedFoodOrders: {fileID: 0}
+  NumRandomFood: 0
