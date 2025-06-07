@@ -27,7 +27,8 @@ public class RegisterManager : MonoBehaviour
 
     public void ShiftIncreaseTotal(int val)
     {
-        if (!WithinLimits(CurrentTotal * 10 + val)) return;
+        long testVal = CurrentTotal;
+        if (!WithinLimits(testVal * 10 + val)) return;
         CurrentTotal *= 10;
         CurrentTotal += val;
         UpdateTotalText();
@@ -64,7 +65,7 @@ public class RegisterManager : MonoBehaviour
         tmp.text = CurrentTotal.ToString();
     }
 
-    private bool WithinLimits(int totalToCheck)
+    private bool WithinLimits(long totalToCheck)
     {
         return totalToCheck < 1000000000 && totalToCheck > 0;
     }
@@ -74,13 +75,12 @@ public class RegisterManager : MonoBehaviour
         if (canChargeCustomer)
         {
             CustomersManager.Instance.ChargeCurrentCustomer(CurrentTotal);
-            canChargeCustomer = false;
         }
         ClearTotal();
     }
 
-    public void SetCanChargeCustomerTrue()
+    public void SetCanChargeCustomer(bool b)
     {
-        canChargeCustomer = true;
+        canChargeCustomer = b;
     }
 }
