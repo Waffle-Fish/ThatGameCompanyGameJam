@@ -249,6 +249,7 @@ MonoBehaviour:
   collectionCheck: 1
   defaultCapacity: 20
   maxSize: 100
+  registerManager: {fileID: 1490006468}
 --- !u!210 &43358548
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -1281,7 +1282,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -12.5}
+  m_AnchoredPosition: {x: 15.9, y: -12.5}
   m_SizeDelta: {x: 11, y: 21.166666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760857705
@@ -2205,7 +2206,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63, y: -0.5}
+  m_AnchoredPosition: {x: 50, y: -0.5}
   m_SizeDelta: {x: 106.977, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978706314
@@ -2228,7 +2229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000000
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fe116250bc09a18429fb47f826d9a6d5, type: 2}
   m_sharedMaterial: {fileID: 4366704740990346132, guid: fe116250bc09a18429fb47f826d9a6d5, type: 2}
@@ -2262,7 +2263,7 @@ MonoBehaviour:
   m_fontSizeMin: 10
   m_fontSizeMax: 16
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2661,7 +2662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bceff20d50bf3b04fad87fece064d4f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quota: 0
+  quota: 100
   timeBetweenCustomers: 5
 --- !u!1 &1141502637
 GameObject:
@@ -3015,6 +3016,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4504983859897175457, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
   m_PrefabInstance: {fileID: 1939422188474384913}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1490006468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5838263404358456614, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
+  m_PrefabInstance: {fileID: 1939422188474384913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490006467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c6df4649255190488c853f2e5702174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1512639122
 GameObject:
   m_ObjectHideFlags: 0

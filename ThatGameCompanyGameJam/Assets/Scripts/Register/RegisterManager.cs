@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -7,12 +8,15 @@ public class RegisterManager : MonoBehaviour
     public int CurrentTotal = 0;
     [SerializeField] TextMeshProUGUI tmp;
 
+    bool canChargeCustomer = false;
+
     private void OnEnable()
     {
         RegisterNumberButton.OnRegisterKeyPressed += ShiftIncreaseTotal;
     }
 
-    private void OnDisable() {
+    private void OnDisable()
+    {
         RegisterNumberButton.OnRegisterKeyPressed -= ShiftIncreaseTotal;
     }
 
@@ -67,8 +71,16 @@ public class RegisterManager : MonoBehaviour
 
     public void SubmitTotal()
     {
-        CustomersManager.Instance.ChargeCurrentCustomer(CurrentTotal);
-        Debug.Log("You owe: " + CurrentTotal);
+        if (canChargeCustomer)
+        {
+            CustomersManager.Instance.ChargeCurrentCustomer(CurrentTotal);
+            canChargeCustomer = false;
+        }
         ClearTotal();
+    }
+
+    public void SetCanChargeCustomerTrue()
+    {
+        canChargeCustomer = true;
     }
 }

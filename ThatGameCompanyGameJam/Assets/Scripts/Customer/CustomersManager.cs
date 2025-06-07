@@ -11,6 +11,10 @@ public class CustomersManager : MonoBehaviour
 
     public static Action<int> OnDespawnCurrentCustomer;
 
+    public static Action<int> OnUpdateCurrentRevenue;
+
+    bool processingDespawn = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
@@ -61,15 +65,24 @@ public class CustomersManager : MonoBehaviour
     {
         IEnumerator DelayDespawn()
         {
+            processingDespawn = true;
             yield return new WaitForSeconds(5f);
             DespawnCurrentCustomer();
+            processingDespawn = false;
         }
 
-        if (currentCustomer)
+        if (currentCustomer && !processingDespawn)
         {
             revenue = amountCharged;
             currentCustomer.Pay(amountCharged);
+            UpdateCurrentRevenue(amountCharged);
             StartCoroutine(DelayDespawn());
         }
     }
+    
+    
+    public void UpdateCurrentRevenue(int amountCharged)
+    {
+        OnUpdateCurrentRevenue?.Invoke(amountCharged);
+    } 
 }
