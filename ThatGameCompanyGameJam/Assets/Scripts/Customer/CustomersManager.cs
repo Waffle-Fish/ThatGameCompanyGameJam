@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CustomersManager : MonoBehaviour
 {
+    [SerializeField][Min(0f)] Vector2 AcceptablePurchaseRange = Vector2.one * 0.5f;
     public static CustomersManager Instance { get; private set; }
     public int CurrentCustomerIndex { get; private set; } = -1;
     CustomerBehavior currentCustomer;
@@ -15,10 +16,13 @@ public class CustomersManager : MonoBehaviour
 
     bool processingDespawn = false;
 
+    RegisterManager registerManager;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
         else Instance = this;
+        registerManager = FindFirstObjectByType<RegisterManager>(FindObjectsInactive.Include);
     }
 
     private void OnEnable()
@@ -73,16 +77,44 @@ public class CustomersManager : MonoBehaviour
 
         if (currentCustomer && !processingDespawn)
         {
-            revenue = amountCharged;
-            currentCustomer.Pay(amountCharged);
-            UpdateCurrentRevenue(amountCharged);
-            StartCoroutine(DelayDespawn());
+            int amountChargedResults = IsAmountChargedTooExtreme(amountCharged);
+            Debug.Log("Amount charged results: " + amountChargedResults);
+            if (amountChargedResults != 0)
+            {
+                // Play inner monologue
+                if (amountChargedResults == -1)
+                {
+                    Debug.Log("I can't give them that big of a discount! The manager will kill me!");
+                }
+                else
+                {
+                    Debug.Log("That's too much of an over charge! The customer will leave!");
+                }
+            }
+            else
+            {
+                revenue = amountCharged;
+                registerManager.SetCanChargeCustomer(false);
+                currentCustomer.Pay(amountCharged);
+                UpdateCurrentRevenue(amountCharged);
+                StartCoroutine(DelayDespawn());
+            }
         }
     }
-    
-    
+
+
     public void UpdateCurrentRevenue(int amountCharged)
     {
         OnUpdateCurrentRevenue?.Invoke(amountCharged);
-    } 
+    }
+
+    private int IsAmountChargedTooExtreme(int amountCharged)
+    {
+        int total = currentCustomer.GetFoodOrderTotal();
+        int floor = (int)Mathf.Clamp(total - AcceptablePurchaseRange.x * total, 0f, 10000000f);
+        int ceil = (int)Mathf.Clamp(total + AcceptablePurchaseRange.y * total, 0f, 10000000f);
+        if (amountCharged < floor) return -1;
+        else if (amountCharged > ceil) return 1;
+        else return 0;
+    }
 }

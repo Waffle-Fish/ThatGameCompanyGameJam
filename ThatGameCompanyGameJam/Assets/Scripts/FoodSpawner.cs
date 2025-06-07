@@ -17,8 +17,8 @@ public class FoodSpawner : MonoBehaviour
     [SerializeField] private bool collectionCheck = true;
     [SerializeField] private int defaultCapacity = 20;
     [SerializeField] private int maxSize = 100;
-    [SerializeField] RegisterManager registerManager;
-    
+    private RegisterManager registerManager;
+
     private void Awake()
     {
         objectPool = new ObjectPool<FoodBehavior>(CreateFood, OnGetFromPool, OnReleaseToPool, OnDestroyPooledObject, collectionCheck, defaultCapacity, maxSize);
@@ -26,6 +26,8 @@ public class FoodSpawner : MonoBehaviour
         else Instance = this;
 
         activeObjects = new();
+        
+        registerManager = FindFirstObjectByType<RegisterManager>(FindObjectsInactive.Include);
     }
 
     private FoodBehavior CreateFood()
@@ -54,7 +56,7 @@ public class FoodSpawner : MonoBehaviour
 
     public void PlaceFood(FoodScriptableObject foodSO)
     {
-        registerManager.SetCanChargeCustomerTrue();
+        registerManager.SetCanChargeCustomer(true);
 
         FoodBehavior foodObject = objectPool.Get();
         foodObject.FoodSO = foodSO;

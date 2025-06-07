@@ -107,4 +107,9 @@ public class CustomerBehavior : MonoBehaviour
             PlayDialouge("Ah you charged me just the right amount!");
         }
     }
+
+    public int GetFoodOrderTotal()
+    {
+        return customerSO.GetFoodOrderTotal();
+    }
 }

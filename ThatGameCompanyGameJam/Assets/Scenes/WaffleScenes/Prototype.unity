@@ -249,7 +249,6 @@ MonoBehaviour:
   collectionCheck: 1
   defaultCapacity: 20
   maxSize: 100
-  registerManager: {fileID: 1490006468}
 --- !u!210 &43358548
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -2514,6 +2513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626893c1ba6862c4facfa16fb157b826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AcceptablePurchaseRange: {x: 0.25, y: 0.25}
 --- !u!224 &1107993488 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 800189390282233146, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
@@ -3016,17 +3016,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4504983859897175457, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
   m_PrefabInstance: {fileID: 1939422188474384913}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1490006468 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5838263404358456614, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
-  m_PrefabInstance: {fileID: 1939422188474384913}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490006467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c6df4649255190488c853f2e5702174, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1512639122
 GameObject:
   m_ObjectHideFlags: 0
