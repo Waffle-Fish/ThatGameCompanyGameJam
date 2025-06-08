@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 04dfed1ef9b10b84eb8c0dfed5d7ea75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9084853385626130992
+    second: BookPopupDessertsText_v2_0
+  - first:
+      213: 1970005440898409882
+    second: BookPopupDessertsText_v2_1
+  - first:
+      213: 4115017233914211025
+    second: BookPopupDessertsText_v2_2
+  - first:
+      213: -1135276835481293914
+    second: BookPopupDessertsText_v2_3
+  - first:
+      213: -255414013882692228
+    second: BookPopupDessertsText_v2_4
+  - first:
+      213: 2260834788439392868
+    second: BookPopupDessertsText_v2_5
+  - first:
+      213: 1526018491731393762
+    second: BookPopupDessertsText_v2_6
+  - first:
+      213: -2974692032687236909
+    second: BookPopupDessertsText_v2_7
+  - first:
+      213: -5349258586280552233
+    second: BookPopupDessertsText_v2_8
+  - first:
+      213: 8434361419511668105
+    second: BookPopupDessertsText_v2_9
+  - first:
+      213: 5446628877975177769
+    second: BookPopupDessertsText_v2_10
+  - first:
+      213: -8536982902771822221
+    second: BookPopupDessertsText_v2_11
+  - first:
+      213: -6488563642361517489
+    second: BookPopupDessertsText_v2_12
+  - first:
+      213: -1380881073081732760
+    second: BookPopupDessertsText_v2_13
+  - first:
+      213: -5554923043356652000
+    second: BookPopupDessertsText_v2_14
+  - first:
+      213: 6065804368997533209
+    second: BookPopupDessertsText_v2_15
+  - first:
+      213: -966067828820278648
+    second: BookPopupDessertsText_v2_16
+  - first:
+      213: 1790340390204086770
+    second: BookPopupDessertsText_v2_17
+  - first:
+      213: 2033368145603765654
+    second: BookPopupDessertsText_v2_18
+  - first:
+      213: -4999720261088099861
+    second: BookPopupDessertsText_v2_19
+  - first:
+      213: 7330801267520175686
+    second: BookPopupDessertsText_v2_20
+  - first:
+      213: 3053678705961387521
+    second: BookPopupDessertsText_v2_21
+  - first:
+      213: -8470039547851021780
+    second: BookPopupDessertsText_v2_22
+  - first:
+      213: 3388962304011134368
+    second: BookPopupDessertsText_v2_23
+  - first:
+      213: 996895743710693845
+    second: BookPopupDessertsText_v2_24
+  - first:
+      213: 2139272257410606042
+    second: BookPopupDessertsText_v2_25
+  - first:
+      213: 4918057405266942985
+    second: BookPopupDessertsText_v2_26
+  - first:
+      213: 5448145318214380305
+    second: BookPopupDessertsText_v2_27
+  - first:
+      213: 6471002215570138694
+    second: BookPopupDessertsText_v2_28
+  - first:
+      213: -1373482262007822907
+    second: BookPopupDessertsText_v2_29
+  - first:
+      213: 1711347865060795727
+    second: BookPopupDessertsText_v2_30
+  - first:
+      213: -7975919704530472565
+    second: BookPopupDessertsText_v2_31
+  - first:
+      213: -7767217626153460775
+    second: BookPopupDessertsText_v2_32
+  - first:
+      213: -2916899991321491129
+    second: BookPopupDessertsText_v2_33
+  - first:
+      213: 3531750261573862843
+    second: BookPopupDessertsText_v2_34
+  - first:
+      213: 450229872775741706
+    second: BookPopupDessertsText_v2_35
+  - first:
+      213: -7206030672795501133
+    second: BookPopupDessertsText_v2_36
+  - first:
+      213: -2788490677193211794
+    second: BookPopupDessertsText_v2_37
+  - first:
+      213: 1936498744011246962
+    second: BookPopupDessertsText_v2_38
+  - first:
+      213: 1177102227450080321
+    second: BookPopupDessertsText_v2_39
+  - first:
+      213: -3402542730460235473
+    second: BookPopupDessertsText_v2_40
+  - first:
+      213: 3028564851276742397
+    second: BookPopupDessertsText_v2_41
+  - first:
+      213: 8393966976778844035
+    second: BookPopupDessertsText_v2_42
+  - first:
+      213: 1485943060173408853
+    second: BookPopupDessertsText_v2_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a10c64502e31e70800000000000000
+      internalID: 9084853385626130992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 509
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95265ec28dd65b10800000000000000
+      internalID: 1970005440898409882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 512
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da21183f5a7b1930800000000000000
+      internalID: 4115017233914211025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 517
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab686babbfae30f0800000000000000
+      internalID: -1135276835481293914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 523
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d8ddfbe46947cf0800000000000000
+      internalID: -255414013882692228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 532
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46286ccf249106f10800000000000000
+      internalID: 2260834788439392868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 521
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecb358abb18d2510800000000000000
+      internalID: 1526018491731393762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 520
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d81e7b5b55c7b6d0800000000000000
+      internalID: -2974692032687236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 467
+        width: 318
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d81a0948ad93c5b0800000000000000
+      internalID: -5349258586280552233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 454
+        width: 243
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d904d160fdc0570800000000000000
+      internalID: 8434361419511668105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 386
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a48176b10569b40800000000000000
+      internalID: 5446628877975177769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 387
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371d3b2e74b868980800000000000000
+      internalID: -8536982902771822221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 385
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae682cebdf3f5a0800000000000000
+      internalID: -6488563642361517489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86137e1faff16dce0800000000000000
+      internalID: -1380881073081732760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 383
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e481e5ce2f8e2b0800000000000000
+      internalID: -5554923043356652000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 382
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9164c138fe01e2450800000000000000
+      internalID: 6065804368997533209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 381
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8820c3a9d66d792f0800000000000000
+      internalID: -966067828820278648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 381
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f91629691198d810800000000000000
+      internalID: 1790340390204086770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 379
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695ae402e89f73c10800000000000000
+      internalID: 2033368145603765654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 378
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1458589ec6d9ab0800000000000000
+      internalID: -4999720261088099861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 377
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ef58d99ec3cb560800000000000000
+      internalID: 7330801267520175686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_21
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 377
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106c00f9a98d06a20800000000000000
+      internalID: 3053678705961387521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 375
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2264dc48ef547a80800000000000000
+      internalID: -8470039547851021780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 319
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e5cf8243080f20800000000000000
+      internalID: 3388962304011134368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_24
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 224
+        width: 257
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d989f9a56fa5dd00800000000000000
+      internalID: 996895743710693845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 189
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3aec4a8c830bd10800000000000000
+      internalID: 2139272257410606042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 187
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c5ae13723704440800000000000000
+      internalID: 4918057405266942985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 187
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b20e82d43bb9b40800000000000000
+      internalID: 5448145318214380305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e2dfea3e9dc950800000000000000
+      internalID: 6471002215570138694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 184
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c549b3e82960fce0800000000000000
+      internalID: -1373482262007822907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 182
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f456210f0ddefb710800000000000000
+      internalID: 1711347865060795727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 181
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b813c667947df4190800000000000000
+      internalID: -7975919704530472565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 179
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db58f3b8bc453490800000000000000
+      internalID: -7767217626153460775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 179
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74941fb89e61587d0800000000000000
+      internalID: -2916899991321491129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 178
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c080a62c430130800000000000000
+      internalID: 3531750261573862843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 175
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0141121fa98f3600800000000000000
+      internalID: 450229872775741706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 173
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd747348490ffb90800000000000000
+      internalID: -7206030672795501133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 172
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60096ec08a4d49d0800000000000000
+      internalID: -2788490677193211794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc7c00953dfda10800000000000000
+      internalID: 1936498744011246962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_39
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 173
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cab734d38e55010800000000000000
+      internalID: 1177102227450080321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 171
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2974d10a6db7c0d0800000000000000
+      internalID: -3402542730460235473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 159
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe759bafaf970a20800000000000000
+      internalID: 3028564851276742397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_42
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 116
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38733430e7c5d7470800000000000000
+      internalID: 8393966976778844035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupDessertsText_v2_43
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 156
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ac71227512f9410800000000000000
+      internalID: 1485943060173408853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BookPopupDessertsText_v2_0: 9084853385626130992
+      BookPopupDessertsText_v2_1: 1970005440898409882
+      BookPopupDessertsText_v2_10: 5446628877975177769
+      BookPopupDessertsText_v2_11: -8536982902771822221
+      BookPopupDessertsText_v2_12: -6488563642361517489
+      BookPopupDessertsText_v2_13: -1380881073081732760
+      BookPopupDessertsText_v2_14: -5554923043356652000
+      BookPopupDessertsText_v2_15: 6065804368997533209
+      BookPopupDessertsText_v2_16: -966067828820278648
+      BookPopupDessertsText_v2_17: 1790340390204086770
+      BookPopupDessertsText_v2_18: 2033368145603765654
+      BookPopupDessertsText_v2_19: -4999720261088099861
+      BookPopupDessertsText_v2_2: 4115017233914211025
+      BookPopupDessertsText_v2_20: 7330801267520175686
+      BookPopupDessertsText_v2_21: 3053678705961387521
+      BookPopupDessertsText_v2_22: -8470039547851021780
+      BookPopupDessertsText_v2_23: 3388962304011134368
+      BookPopupDessertsText_v2_24: 996895743710693845
+      BookPopupDessertsText_v2_25: 2139272257410606042
+      BookPopupDessertsText_v2_26: 4918057405266942985
+      BookPopupDessertsText_v2_27: 5448145318214380305
+      BookPopupDessertsText_v2_28: 6471002215570138694
+      BookPopupDessertsText_v2_29: -1373482262007822907
+      BookPopupDessertsText_v2_3: -1135276835481293914
+      BookPopupDessertsText_v2_30: 1711347865060795727
+      BookPopupDessertsText_v2_31: -7975919704530472565
+      BookPopupDessertsText_v2_32: -7767217626153460775
+      BookPopupDessertsText_v2_33: -2916899991321491129
+      BookPopupDessertsText_v2_34: 3531750261573862843
+      BookPopupDessertsText_v2_35: 450229872775741706
+      BookPopupDessertsText_v2_36: -7206030672795501133
+      BookPopupDessertsText_v2_37: -2788490677193211794
+      BookPopupDessertsText_v2_38: 1936498744011246962
+      BookPopupDessertsText_v2_39: 1177102227450080321
+      BookPopupDessertsText_v2_4: -255414013882692228
+      BookPopupDessertsText_v2_40: -3402542730460235473
+      BookPopupDessertsText_v2_41: 3028564851276742397
+      BookPopupDessertsText_v2_42: 8393966976778844035
+      BookPopupDessertsText_v2_43: 1485943060173408853
+      BookPopupDessertsText_v2_5: 2260834788439392868
+      BookPopupDessertsText_v2_6: 1526018491731393762
+      BookPopupDessertsText_v2_7: -2974692032687236909
+      BookPopupDessertsText_v2_8: -5349258586280552233
+      BookPopupDessertsText_v2_9: 8434361419511668105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

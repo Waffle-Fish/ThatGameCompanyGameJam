@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 8b93bb427ec26064d9a22495e50f95ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4978038567119532626
+    second: BookPopupAddOnsText_v2_0
+  - first:
+      213: 894453183467419795
+    second: BookPopupAddOnsText_v2_1
+  - first:
+      213: 2983626963742955953
+    second: BookPopupAddOnsText_v2_2
+  - first:
+      213: -3726152593304145154
+    second: BookPopupAddOnsText_v2_3
+  - first:
+      213: -779216175263309356
+    second: BookPopupAddOnsText_v2_4
+  - first:
+      213: 6530621491819114578
+    second: BookPopupAddOnsText_v2_5
+  - first:
+      213: 8761738310182861822
+    second: BookPopupAddOnsText_v2_6
+  - first:
+      213: -6022785407020708512
+    second: BookPopupAddOnsText_v2_7
+  - first:
+      213: -4188268991844071713
+    second: BookPopupAddOnsText_v2_8
+  - first:
+      213: -6422386908805803588
+    second: BookPopupAddOnsText_v2_9
+  - first:
+      213: -215132953410566968
+    second: BookPopupAddOnsText_v2_10
+  - first:
+      213: 6156733834933373711
+    second: BookPopupAddOnsText_v2_11
+  - first:
+      213: 6029562627904295574
+    second: BookPopupAddOnsText_v2_12
+  - first:
+      213: 6249864213441825984
+    second: BookPopupAddOnsText_v2_13
+  - first:
+      213: 9141056574369743436
+    second: BookPopupAddOnsText_v2_14
+  - first:
+      213: 4739988950941952020
+    second: BookPopupAddOnsText_v2_15
+  - first:
+      213: 66786664518626269
+    second: BookPopupAddOnsText_v2_16
+  - first:
+      213: 7559556159970986354
+    second: BookPopupAddOnsText_v2_17
+  - first:
+      213: 2632039114578890724
+    second: BookPopupAddOnsText_v2_18
+  - first:
+      213: 3118846366250813454
+    second: BookPopupAddOnsText_v2_19
+  - first:
+      213: -5973339139177659839
+    second: BookPopupAddOnsText_v2_20
+  - first:
+      213: 4632832561904304004
+    second: BookPopupAddOnsText_v2_21
+  - first:
+      213: -8431947195064452039
+    second: BookPopupAddOnsText_v2_22
+  - first:
+      213: -8978792748454261842
+    second: BookPopupAddOnsText_v2_23
+  - first:
+      213: 4436055991249680233
+    second: BookPopupAddOnsText_v2_24
+  - first:
+      213: -6027890021402088656
+    second: BookPopupAddOnsText_v2_25
+  - first:
+      213: 6308236108582487953
+    second: BookPopupAddOnsText_v2_26
+  - first:
+      213: 1548657228417349200
+    second: BookPopupAddOnsText_v2_27
+  - first:
+      213: 6571248468436137820
+    second: BookPopupAddOnsText_v2_28
+  - first:
+      213: -5091302065686807178
+    second: BookPopupAddOnsText_v2_29
+  - first:
+      213: 1452857562218048406
+    second: BookPopupAddOnsText_v2_30
+  - first:
+      213: -2431112233565919636
+    second: BookPopupAddOnsText_v2_31
+  - first:
+      213: 3840003415059033322
+    second: BookPopupAddOnsText_v2_32
+  - first:
+      213: -8627042253412915602
+    second: BookPopupAddOnsText_v2_33
+  - first:
+      213: -6675904166642691024
+    second: BookPopupAddOnsText_v2_34
+  - first:
+      213: 7055876389069640051
+    second: BookPopupAddOnsText_v2_35
+  - first:
+      213: -1392131679546468701
+    second: BookPopupAddOnsText_v2_36
+  - first:
+      213: 7478019662668503461
+    second: BookPopupAddOnsText_v2_37
+  - first:
+      213: 5615855211298155888
+    second: BookPopupAddOnsText_v2_38
+  - first:
+      213: 9027882062517664395
+    second: BookPopupAddOnsText_v2_39
+  - first:
+      213: -511556223634235476
+    second: BookPopupAddOnsText_v2_40
+  - first:
+      213: 4463429962633491415
+    second: BookPopupAddOnsText_v2_41
+  - first:
+      213: 3337323500647877657
+    second: BookPopupAddOnsText_v2_42
+  - first:
+      213: -5741720452592100863
+    second: BookPopupAddOnsText_v2_43
+  - first:
+      213: -763267272669976692
+    second: BookPopupAddOnsText_v2_44
+  - first:
+      213: -5453733770881755970
+    second: BookPopupAddOnsText_v2_45
+  - first:
+      213: 8159405895387451795
+    second: BookPopupAddOnsText_v2_46
+  - first:
+      213: -2642821170766333623
+    second: BookPopupAddOnsText_v2_47
+  - first:
+      213: -1290797434729992421
+    second: BookPopupAddOnsText_v2_48
+  - first:
+      213: 436485903113478364
+    second: BookPopupAddOnsText_v2_49
+  - first:
+      213: 695817292330009423
+    second: BookPopupAddOnsText_v2_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 431
+        width: 63
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead45a84c447aeab0800000000000000
+      internalID: -4978038567119532626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 438
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398facc6e6cb96c00800000000000000
+      internalID: 894453183467419795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 448
+        width: 47
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b91d246ae8f76920800000000000000
+      internalID: 2983626963742955953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 483
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2b43955fb0a4cc0800000000000000
+      internalID: -3726152593304145154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 460
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1213e540baf25f0800000000000000
+      internalID: -779216175263309356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 452
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250f86665ad61aa50800000000000000
+      internalID: 6530621491819114578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 451
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb71694292f79970800000000000000
+      internalID: 8761738310182861822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 316
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dcf181594ca6ca0800000000000000
+      internalID: -6022785407020708512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 385
+        width: 243
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6c955da8740e5c0800000000000000
+      internalID: -4188268991844071713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 317
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1d28a32291fd6a0800000000000000
+      internalID: -6422386908805803588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 317
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c48b7cf7b1b30df0800000000000000
+      internalID: -215132953410566968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 316
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b05d79dcc117550800000000000000
+      internalID: 6156733834933373711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 315
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692d43b934f4da350800000000000000
+      internalID: 6029562627904295574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 314
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc40a0936afbb650800000000000000
+      internalID: 6249864213441825984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 273
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42ce03e58e8bde70800000000000000
+      internalID: 9141056574369743436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 308
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418eb2c56d2d7c140800000000000000
+      internalID: 4739988950941952020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 294
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbad561e164de000800000000000000
+      internalID: 66786664518626269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 217
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279cfa67640f8e860800000000000000
+      internalID: 7559556159970986354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 216
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef886b21a1e68420800000000000000
+      internalID: 2632039114578890724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 216
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08c569ee3e584b20800000000000000
+      internalID: 3118846366250813454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c06673bf6a1da0800000000000000
+      internalID: -5973339139177659839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_21
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 215
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f3b245ba02b4040800000000000000
+      internalID: 4632832561904304004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 215
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cf45153b4bbfa80800000000000000
+      internalID: -8431947195064452039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 215
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabc784219be46380800000000000000
+      internalID: -8978792748454261842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 214
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9673e2abb69009d30800000000000000
+      internalID: 4436055991249680233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 214
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be43176f1a85ca0800000000000000
+      internalID: -6027890021402088656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_26
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 177
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1970a5b715b5b8750800000000000000
+      internalID: 6308236108582487953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 213
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05638aa4b8fed7510800000000000000
+      internalID: 1548657228417349200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 199
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5737f38aa3c13b50800000000000000
+      internalID: 6571248468436137820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 118
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d76820fbf0859b0800000000000000
+      internalID: -5091302065686807178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 112
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b2f395146992410800000000000000
+      internalID: 1452857562218048406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 118
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66623ddd44f24ed0800000000000000
+      internalID: -2431112233565919636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_32
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 118
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec61e2c2ce6a4530800000000000000
+      internalID: 3840003415059033322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_33
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 116
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a90f47c6964880800000000000000
+      internalID: -8627042253412915602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 116
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03456b8e78c6a53a0800000000000000
+      internalID: -6675904166642691024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 116
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371df8531328be160800000000000000
+      internalID: 7055876389069640051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_36
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 116
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a690100d972eace0800000000000000
+      internalID: -1392131679546468701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 99
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a91eb0534347c760800000000000000
+      internalID: 7478019662668503461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 116
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07de3738f868fed40800000000000000
+      internalID: 5615855211298155888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 101
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a7c7277ea794d70800000000000000
+      internalID: 9027882062517664395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf14af235696e8f0800000000000000
+      internalID: -511556223634235476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 23
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3ba9a17e941fd30800000000000000
+      internalID: 4463429962633491415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c0eacba0e805e20800000000000000
+      internalID: 3337323500647877657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a17a75baf4150b0800000000000000
+      internalID: -5741720452592100863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 23
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8723df95745865f0800000000000000
+      internalID: -763267272669976692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_45
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 22
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb49a0fc7027054b0800000000000000
+      internalID: -5453733770881755970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_46
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 22
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3911cc47e680c3170800000000000000
+      internalID: 8159405895387451795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 22
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949379fb520d25bd0800000000000000
+      internalID: -2642821170766333623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1feee1729a261ee0800000000000000
+      internalID: -1290797434729992421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_49
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 20
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06b84cd95be0600800000000000000
+      internalID: 436485903113478364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookPopupAddOnsText_v2_50
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 6
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4387e9042a08a900800000000000000
+      internalID: 695817292330009423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BookPopupAddOnsText_v2_0: -4978038567119532626
+      BookPopupAddOnsText_v2_1: 894453183467419795
+      BookPopupAddOnsText_v2_10: -215132953410566968
+      BookPopupAddOnsText_v2_11: 6156733834933373711
+      BookPopupAddOnsText_v2_12: 6029562627904295574
+      BookPopupAddOnsText_v2_13: 6249864213441825984
+      BookPopupAddOnsText_v2_14: 9141056574369743436
+      BookPopupAddOnsText_v2_15: 4739988950941952020
+      BookPopupAddOnsText_v2_16: 66786664518626269
+      BookPopupAddOnsText_v2_17: 7559556159970986354
+      BookPopupAddOnsText_v2_18: 2632039114578890724
+      BookPopupAddOnsText_v2_19: 3118846366250813454
+      BookPopupAddOnsText_v2_2: 2983626963742955953
+      BookPopupAddOnsText_v2_20: -5973339139177659839
+      BookPopupAddOnsText_v2_21: 4632832561904304004
+      BookPopupAddOnsText_v2_22: -8431947195064452039
+      BookPopupAddOnsText_v2_23: -8978792748454261842
+      BookPopupAddOnsText_v2_24: 4436055991249680233
+      BookPopupAddOnsText_v2_25: -6027890021402088656
+      BookPopupAddOnsText_v2_26: 6308236108582487953
+      BookPopupAddOnsText_v2_27: 1548657228417349200
+      BookPopupAddOnsText_v2_28: 6571248468436137820
+      BookPopupAddOnsText_v2_29: -5091302065686807178
+      BookPopupAddOnsText_v2_3: -3726152593304145154
+      BookPopupAddOnsText_v2_30: 1452857562218048406
+      BookPopupAddOnsText_v2_31: -2431112233565919636
+      BookPopupAddOnsText_v2_32: 3840003415059033322
+      BookPopupAddOnsText_v2_33: -8627042253412915602
+      BookPopupAddOnsText_v2_34: -6675904166642691024
+      BookPopupAddOnsText_v2_35: 7055876389069640051
+      BookPopupAddOnsText_v2_36: -1392131679546468701
+      BookPopupAddOnsText_v2_37: 7478019662668503461
+      BookPopupAddOnsText_v2_38: 5615855211298155888
+      BookPopupAddOnsText_v2_39: 9027882062517664395
+      BookPopupAddOnsText_v2_4: -779216175263309356
+      BookPopupAddOnsText_v2_40: -511556223634235476
+      BookPopupAddOnsText_v2_41: 4463429962633491415
+      BookPopupAddOnsText_v2_42: 3337323500647877657
+      BookPopupAddOnsText_v2_43: -5741720452592100863
+      BookPopupAddOnsText_v2_44: -763267272669976692
+      BookPopupAddOnsText_v2_45: -5453733770881755970
+      BookPopupAddOnsText_v2_46: 8159405895387451795
+      BookPopupAddOnsText_v2_47: -2642821170766333623
+      BookPopupAddOnsText_v2_48: -1290797434729992421
+      BookPopupAddOnsText_v2_49: 436485903113478364
+      BookPopupAddOnsText_v2_5: 6530621491819114578
+      BookPopupAddOnsText_v2_50: 695817292330009423
+      BookPopupAddOnsText_v2_6: 8761738310182861822
+      BookPopupAddOnsText_v2_7: -6022785407020708512
+      BookPopupAddOnsText_v2_8: -4188268991844071713
+      BookPopupAddOnsText_v2_9: -6422386908805803588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
