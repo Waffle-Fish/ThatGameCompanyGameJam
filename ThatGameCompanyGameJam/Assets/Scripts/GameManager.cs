@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     public static Action OnSpawnNextCustomer;
     bool hasStartedGame = false;
 
+    [SerializeField] PlayableDirector endPD;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
@@ -25,12 +27,14 @@ public class GameManager : MonoBehaviour
     {
         CustomersManager.OnDespawnCurrentCustomer += ProcessCustomers;
         CustomersManager.OnUpdateCurrentRevenue += UpdateCurrentRevenue;
+        CustomersManager.AllCustomersServed += EndGame;
     }
 
     private void OnDisable()
     {
         CustomersManager.OnDespawnCurrentCustomer -= ProcessCustomers;
         CustomersManager.OnUpdateCurrentRevenue -= UpdateCurrentRevenue;
+        CustomersManager.AllCustomersServed -= EndGame;
     }
 
     private void ProcessCustomers(int revenue)
@@ -57,5 +61,10 @@ public class GameManager : MonoBehaviour
         ProcessCustomers(0);
         hasStartedGame = true;
         Debug.Log("The game has started!");
+    }
+
+    private void EndGame()
+    {
+        endPD.Play();
     }
 }
