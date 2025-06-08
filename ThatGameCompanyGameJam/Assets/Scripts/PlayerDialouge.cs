@@ -9,8 +9,8 @@ public class PlayerDialouge : MonoBehaviour
         tmp = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    public void PlayDialouge()
+    public void PlayDialouge(string text)
     {
-
+        I
     }
 }
