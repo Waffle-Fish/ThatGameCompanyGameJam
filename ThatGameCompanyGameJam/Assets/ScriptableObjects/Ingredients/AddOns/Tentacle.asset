@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cce027910d974e498b7b08f48be97a8, type: 3}
   m_Name: Tentacle
   m_EditorClassIdentifier: 
-  Cost: 4
+  Cost: 10
