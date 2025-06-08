@@ -29,7 +29,6 @@ public class CustomerScriptableObject : ScriptableObject
         FoodOrder = new();
         FoodOrder.AddRange(GuranteedFoodOrders);
         
-        // IGNORE RANDOM FOOD FOR NOW
         // if (!RandomizedFoodOrders || RandomizedFoodOrders.FoodList.Count == 0) return;
         // for (int i = 0; i < NumRandomFood; i++)
         // {

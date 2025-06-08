@@ -15,7 +15,7 @@ MonoBehaviour:
   CustomerSprite: {fileID: 0}
   GuranteedFoodOrders:
   - {fileID: 5411440514128022370, guid: bc66bfa353261094a8b56010b6911a9f, type: 3}
-  - {fileID: 5411440514128022370, guid: 67a7067c6a24fb945a68b4951be8c5f7, type: 3}
+  - {fileID: 5411440514128022370, guid: 12d716c8d7f49bc42b2be988110fc5b2, type: 3}
   - {fileID: 5411440514128022370, guid: 7845fce15c69c784db4cfa7c2c28c321, type: 3}
   RandomizedFoodOrders: {fileID: 0}
   NumRandomFood: 0

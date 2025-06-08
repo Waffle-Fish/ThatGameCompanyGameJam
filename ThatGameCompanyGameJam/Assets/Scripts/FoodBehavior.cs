@@ -14,11 +14,13 @@ public class FoodBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public IObjectPool<FoodBehavior> ObjectPool { set => objectPool = value; }
 
     private List<TextMeshPro> tmps;
+    private SpriteRenderer spriteRenderer;
 
     const float TEXT_SCALE = 0.1f;
 
     private void Awake()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         tmps = new();
         GetComponentsInChildren<TextMeshPro>(true, tmps);
     }
@@ -26,6 +28,7 @@ public class FoodBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Start()
     {
         name = FoodSO.name;
+        spriteRenderer.sprite = FoodSO.Sprite;
         UpdateText();
     }
 
@@ -62,13 +65,13 @@ public class FoodBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Mouse has entered " + name);
+        // Debug.Log("Mouse has entered " + name);
         EnableTexts();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("Mouse has exited " + name);
+        // Debug.Log("Mouse has exited " + name);
         DisableTexts();
     }
 }

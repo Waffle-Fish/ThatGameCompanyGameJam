@@ -9,6 +9,7 @@ public class CustomerBehavior : MonoBehaviour
     [SerializeField] CustomerScriptableObject customerSO;
     [SerializeField] AnimationClip enterAnimation;
     [SerializeField] AnimationClip exitAnimation;
+    [SerializeField] Sprite customerBack;
 
     private SpriteRenderer spriteRenderer;
     private FoodSpawner foodSpawner;
@@ -51,6 +52,7 @@ public class CustomerBehavior : MonoBehaviour
 
     public IEnumerator ProcessExit()
     {
+        spriteRenderer.sprite = customerBack;
         speechBubbleObj.SetActive(false);
         foodSpawner.ReleaseAllActive();
         animator.SetTrigger("Exit");

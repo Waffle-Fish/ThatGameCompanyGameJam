@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerSprite: {fileID: 0}
   GuranteedFoodOrders:
-  - {fileID: 5411440514128022370, guid: 35115a6d9fdd90146978c1e2642350da, type: 3}
+  - {fileID: 5411440514128022370, guid: 8797c843d6891f24fb4ada689c278a61, type: 3}
   - {fileID: 5411440514128022370, guid: bc66bfa353261094a8b56010b6911a9f, type: 3}
-  - {fileID: 5411440514128022370, guid: 35115a6d9fdd90146978c1e2642350da, type: 3}
-  - {fileID: 5411440514128022370, guid: bc66bfa353261094a8b56010b6911a9f, type: 3}
+  - {fileID: 5411440514128022370, guid: 317b0b1c687248f43a6d76759fbc8acf, type: 3}
+  - {fileID: 5411440514128022370, guid: 42444e61e49650e4183ed33f5b71dfd4, type: 3}
   RandomizedFoodOrders: {fileID: 0}
   NumRandomFood: 0

@@ -6,6 +6,7 @@ using UnityEngine;
 public class FoodScriptableObject : ScriptableObject
 {
     public Sprite Sprite;
+    public Sprite OutlineSprite;
     [Min(0f)] public float Scale;
     public List<IngredientScriptableObject> Ingredients;
 

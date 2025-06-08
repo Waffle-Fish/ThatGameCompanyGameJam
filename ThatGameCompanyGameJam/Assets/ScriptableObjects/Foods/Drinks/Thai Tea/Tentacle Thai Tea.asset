@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384254b5d4a1faf4e91c40a46fba2f58, type: 3}
+  m_Name: Tentacle Thai Tea
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: 21300000, guid: a8375820ecdd69248b93c5cb282cc753, type: 3}
+  OutlineSprite: {fileID: 21300000, guid: a7227d93ba3db6d40ac1d5cd71501196, type: 3}
+  Scale: 0.4
+  Ingredients:
+  - {fileID: 11400000, guid: b232aa52daa36f3478b5e80b9a686026, type: 2}
+  - {fileID: 11400000, guid: 9fab26eff0394ca48a08d04171e06c19, type: 2}

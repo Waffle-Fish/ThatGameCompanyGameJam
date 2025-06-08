@@ -18,6 +18,8 @@ public class CustomersManager : MonoBehaviour
 
     RegisterManager registerManager;
 
+    public static Action AllCustomersServed;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
@@ -48,7 +50,7 @@ public class CustomersManager : MonoBehaviour
         CurrentCustomerIndex++;
         if (CurrentCustomerIndex >= transform.childCount)
         {
-            Debug.Log("End of day!");
+            AllCustomersServed?.Invoke();
         }
         else
         {
