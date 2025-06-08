@@ -13,14 +13,12 @@ public class GameManager : MonoBehaviour
     [SerializeField][Min(0f)] float timeBetweenCustomers = 1f;
     float inBetweenCustomerTimer = 0f;
     public static Action OnSpawnNextCustomer;
-
-    [SerializeField] PlayableDirector introDirector;
+    bool hasStartedGame = false;
 
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
         else Instance = this;
-        StartCoroutine(StartGame());
     }
 
     private void OnEnable()
@@ -53,11 +51,11 @@ public class GameManager : MonoBehaviour
         CurrentRevenue += money;
     }
 
-    private IEnumerator StartGame()
+    public void StartGame()
     {
-        yield return new WaitForSeconds((float)introDirector.playableAsset.duration + 1f);
+        if (hasStartedGame) return;
         ProcessCustomers(0);
+        hasStartedGame = true;
+        Debug.Log("The game has started!");
     }
-
-
 }

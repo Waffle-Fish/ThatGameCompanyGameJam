@@ -1148,6 +1148,10 @@ PlayableDirector:
     value: {fileID: 1186907557}
   - key: {fileID: 3834431497212071730, guid: 37559142e0c9d154dacddc41e2cee5e7, type: 2}
     value: {fileID: 1757852886}
+  - key: {fileID: -4719074120117168667, guid: 37559142e0c9d154dacddc41e2cee5e7, type: 2}
+    value: {fileID: 1872278282}
+  - key: {fileID: -1462811464053147644, guid: 37559142e0c9d154dacddc41e2cee5e7, type: 2}
+    value: {fileID: 1132288621}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &579597518
@@ -1166,7 +1170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &579597519
 Transform:
   m_ObjectHideFlags: 0
@@ -1532,7 +1536,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skip Intro
+  m_text: 'Doze Off
+
+    (Skip Intro)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fe116250bc09a18429fb47f826d9a6d5, type: 2}
   m_sharedMaterial: {fileID: 4366704740990346132, guid: fe116250bc09a18429fb47f826d9a6d5, type: 2}
@@ -3040,6 +3046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132288619}
   - component: {fileID: 1132288620}
+  - component: {fileID: 1132288621}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3076,7 +3083,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quota: 100
   timeBetweenCustomers: 5
-  introDirector: {fileID: 573064944}
+--- !u!114 &1132288621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132288618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: e09018daa826d2143805e443798fca79, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1132288620}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: StartGame
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1141502637
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,7 +3310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.75, y: -3}
+  m_AnchoredPosition: {x: 4.6, y: -3}
   m_SizeDelta: {x: 5.4, y: 2.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186907555
@@ -5019,7 +5055,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5699652323083587436, guid: ffa735ee2ba815e459704969e399d17e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5458,6 +5494,8 @@ GameObject:
   - component: {fileID: 1872278279}
   - component: {fileID: 1872278278}
   - component: {fileID: 1872278281}
+  - component: {fileID: 1872278282}
+  - component: {fileID: 1872278283}
   m_Layer: 5
   m_Name: SkipIntroButton
   m_TagString: Untagged
@@ -5480,10 +5518,10 @@ RectTransform:
   - {fileID: 660723384}
   m_Father: {fileID: 1716585721}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -120, y: 548}
-  m_SizeDelta: {x: 136, y: 59}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -135, y: -60}
+  m_SizeDelta: {x: 160, y: 59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872278278
 MonoBehaviour:
@@ -5536,7 +5574,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 447
+          m_IntArgument: 284
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5604,6 +5642,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pd: {fileID: 573064944}
+--- !u!95 &1872278282
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872278276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &1872278283
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872278276}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1915497037
 GameObject:
   m_ObjectHideFlags: 0
