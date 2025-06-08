@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TentacleFrenchBread_v1_0: 4414026040921907878
+      TentacleFrenchBread_v1_1: -8015660635558010519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

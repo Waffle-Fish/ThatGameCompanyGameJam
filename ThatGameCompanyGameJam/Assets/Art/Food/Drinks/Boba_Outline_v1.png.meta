@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boba_Outline_v1_0: 2929392754749654383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

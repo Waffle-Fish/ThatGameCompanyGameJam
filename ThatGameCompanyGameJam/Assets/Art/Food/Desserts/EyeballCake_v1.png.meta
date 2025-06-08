@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EyeballCake_v1_0: -5845458793659430734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

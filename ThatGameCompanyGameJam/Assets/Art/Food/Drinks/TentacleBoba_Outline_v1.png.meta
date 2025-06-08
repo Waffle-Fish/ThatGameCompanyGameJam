@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TentacleBoba_Outline_v1_0: -1302826411904165776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TadpoleFrenchBread_v1_0: -5856871069710816921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

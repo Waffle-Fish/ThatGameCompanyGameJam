@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BonesFrenchBread_Outline_v2_0: 2788960806847544433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

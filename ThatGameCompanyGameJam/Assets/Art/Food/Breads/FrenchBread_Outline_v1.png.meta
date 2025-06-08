@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrenchBread_Outline_v1_0: 3108486900370380734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

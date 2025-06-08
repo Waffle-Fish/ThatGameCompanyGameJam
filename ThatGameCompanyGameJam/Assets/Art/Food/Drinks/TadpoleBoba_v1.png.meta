@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TadpoleBoba_v1_0: 5635213045074221814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

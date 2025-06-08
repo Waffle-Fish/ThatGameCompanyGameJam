@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EyeballBoba_v1_0: -1790183260762199146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

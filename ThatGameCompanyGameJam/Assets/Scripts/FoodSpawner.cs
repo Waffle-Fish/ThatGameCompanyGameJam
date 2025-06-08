@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
+using FMOD.Studio;
+using FMODUnity;
 
 public class FoodSpawner : MonoBehaviour
 {
@@ -17,6 +19,10 @@ public class FoodSpawner : MonoBehaviour
     [SerializeField] private int defaultCapacity = 20;
     [SerializeField] private int maxSize = 100;
 
+    [SerializeField] private EventReference placeReference;
+
+    private EventInstance placeInstance;
+
     private void Awake()
     {
         objectPool = new ObjectPool<FoodBehavior>(CreateFood, OnGetFromPool, OnReleaseToPool, OnDestroyPooledObject, collectionCheck, defaultCapacity, maxSize);
@@ -24,6 +30,8 @@ public class FoodSpawner : MonoBehaviour
         else Instance = this;
 
         activeObjects = new();
+
+        placeInstance = RuntimeManager.CreateInstance(placeReference);
     }
 
     private FoodBehavior CreateFood()
@@ -71,6 +79,8 @@ public class FoodSpawner : MonoBehaviour
             spriteRef.GetPhysicsShape(0, newPointsList);
             foodObject.GetComponent<PolygonCollider2D>().points = newPointsList.ToArray();
         }
+
+        placeInstance.start();
     }
 
     public void ReleaseAllActive()

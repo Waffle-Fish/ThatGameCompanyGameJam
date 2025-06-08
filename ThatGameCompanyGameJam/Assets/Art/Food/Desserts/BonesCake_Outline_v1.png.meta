@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BonesCake_Outline_v1_0: -7333554050910515109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

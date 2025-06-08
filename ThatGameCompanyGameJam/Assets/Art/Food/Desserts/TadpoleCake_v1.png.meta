@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TadpoleCake_v1_0: -7555650767945025638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
