@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SmallMinion3Back_v1_0: 385530477714127027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -249,6 +249,13 @@ MonoBehaviour:
   collectionCheck: 1
   defaultCapacity: 20
   maxSize: 100
+  placeReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!210 &43358548
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -3437,8 +3444,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ac32da8f46b1446b14ab962d7fc1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1015626087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,6 +3518,7 @@ GameObject:
   - component: {fileID: 1048710832}
   - component: {fileID: 1048710831}
   - component: {fileID: 1048710833}
+  - component: {fileID: 1048710834}
   m_Layer: 5
   m_Name: Thought Bubble
   m_TagString: Untagged
@@ -3576,6 +3596,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2c33e82cbeb174faea495fc7993134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textDuration: 3
+--- !u!225 &1048710834
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048710829}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!224 &1107993488 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 800189390282233146, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
@@ -4658,8 +4691,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1490006467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504983859897175457, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
@@ -4888,8 +4933,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1558363194
 MonoBehaviour:
   m_ObjectHideFlags: 0

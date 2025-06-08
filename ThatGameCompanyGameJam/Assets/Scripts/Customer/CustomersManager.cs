@@ -87,11 +87,11 @@ public class CustomersManager : MonoBehaviour
                 // Play inner monologue
                 if (amountChargedResults == -1)
                 {
-                    Debug.Log("I can't give them that big of a discount! The manager will kill me!");
+                    PlayerDialouge.Instance.PlayDialouge("The manager will kill me if I gave them such a discount!");
                 }
                 else
                 {
-                    Debug.Log("That's too much of an over charge! The customer will leave!");
+                    PlayerDialouge.Instance.PlayDialouge("The customer will kill me if I charge them that much!");
                 }
             }
             else

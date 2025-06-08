@@ -24,7 +24,6 @@ public class FoodSpawner : MonoBehaviour
 
     // FMOD
     [SerializeField] private EventReference placeReference;
-
     private EventInstance placeInstance;
 
     private void Awake()
@@ -34,12 +33,11 @@ public class FoodSpawner : MonoBehaviour
         else Instance = this;
 
         activeObjects = new();
+        registerManager = FindFirstObjectByType<RegisterManager>(FindObjectsInactive.Include);
 
         placeInstance = RuntimeManager.CreateInstance(placeReference);
-        
-        registerManager = FindFirstObjectByType<RegisterManager>(FindObjectsInactive.Include);
     }
-
+    
     private FoodBehavior CreateFood()
     {
         FoodBehavior foodInstance = Instantiate(foodPrefab);

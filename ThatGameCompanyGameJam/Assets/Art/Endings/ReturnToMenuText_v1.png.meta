@@ -897,7 +897,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ReturnToMenuText_v1_0: -642624756635305945
+      ReturnToMenuText_v1_1: 8134596602262097912
+      ReturnToMenuText_v1_10: 8056547633021601163
+      ReturnToMenuText_v1_11: 4229355365017883553
+      ReturnToMenuText_v1_12: 364098045482344077
+      ReturnToMenuText_v1_13: 4263208503134673223
+      ReturnToMenuText_v1_14: 2707078777040782011
+      ReturnToMenuText_v1_15: 3218899879001718089
+      ReturnToMenuText_v1_16: -4110911289711748402
+      ReturnToMenuText_v1_17: 4427071261520060448
+      ReturnToMenuText_v1_18: 1012636371089975881
+      ReturnToMenuText_v1_19: 1281099494431524365
+      ReturnToMenuText_v1_2: 7320633980526023012
+      ReturnToMenuText_v1_20: -3881309288422472149
+      ReturnToMenuText_v1_21: 4333172212840931381
+      ReturnToMenuText_v1_22: -4093491079126173139
+      ReturnToMenuText_v1_23: 6622013525336482935
+      ReturnToMenuText_v1_24: -8329617390021783848
+      ReturnToMenuText_v1_25: -229838681248043564
+      ReturnToMenuText_v1_26: -3279357731977611020
+      ReturnToMenuText_v1_27: -8376501633688752818
+      ReturnToMenuText_v1_28: 2926475411964866250
+      ReturnToMenuText_v1_29: 995664951577106441
+      ReturnToMenuText_v1_3: 3512915210578761516
+      ReturnToMenuText_v1_30: -5792819952190081071
+      ReturnToMenuText_v1_4: 8265011001836991499
+      ReturnToMenuText_v1_5: 5093441441322193810
+      ReturnToMenuText_v1_6: 5509130650129334121
+      ReturnToMenuText_v1_7: 1365614012458841213
+      ReturnToMenuText_v1_8: 8185166737811853122
+      ReturnToMenuText_v1_9: -6816809204490772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
