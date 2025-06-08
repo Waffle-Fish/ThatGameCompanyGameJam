@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,11 +14,13 @@ public class GameManager : MonoBehaviour
     float inBetweenCustomerTimer = 0f;
     public static Action OnSpawnNextCustomer;
 
+    [SerializeField] PlayableDirector introDirector;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
         else Instance = this;
-        ProcessCustomers(0);
+        StartCoroutine(StartGame());
     }
 
     private void OnEnable()
@@ -49,4 +52,12 @@ public class GameManager : MonoBehaviour
     {
         CurrentRevenue += money;
     }
+
+    private IEnumerator StartGame()
+    {
+        yield return new WaitForSeconds((float)introDirector.playableAsset.duration + 1f);
+        ProcessCustomers(0);
+    }
+
+
 }
