@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TentacleCake_v1_0: 7035112701990477327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

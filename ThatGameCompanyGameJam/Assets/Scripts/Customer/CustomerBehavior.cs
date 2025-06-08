@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class CustomerBehavior : MonoBehaviour
 {
@@ -10,6 +12,14 @@ public class CustomerBehavior : MonoBehaviour
     [SerializeField] AnimationClip enterAnimation;
     [SerializeField] AnimationClip exitAnimation;
     [SerializeField] Sprite customerBack;
+
+    [SerializeField] EventReference doorReference;
+    [SerializeField] EventReference walkingReference;
+    [SerializeField] EventReference dialogueReference;
+
+    private EventInstance doorInstance;
+    private EventInstance walkingInstance;
+    private EventInstance dialogueInstance;
 
     private SpriteRenderer spriteRenderer;
     private FoodSpawner foodSpawner;
@@ -24,6 +34,10 @@ public class CustomerBehavior : MonoBehaviour
         foodSpawner = FoodSpawner.Instance;
         dialogueTMP = GetComponentInChildren<TextMeshPro>(true);
         animator = GetComponent<Animator>();
+
+        doorInstance = RuntimeManager.CreateInstance(doorReference);
+        walkingInstance = RuntimeManager.CreateInstance(walkingReference);
+        dialogueInstance = RuntimeManager.CreateInstance(dialogueReference);
 
         speechBubbleObj = dialogueTMP.transform.parent.gameObject;
         originalTextColor = dialogueTMP.color;
@@ -45,8 +59,11 @@ public class CustomerBehavior : MonoBehaviour
     }
     public IEnumerator ProcessEntrance()
     {
+        doorInstance.start();
+        walkingInstance.start();
         animator.SetTrigger("Enter");
         yield return new WaitForSeconds(enterAnimation.length);
+        walkingInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         DisplayOrder();
     }
 
@@ -56,7 +73,10 @@ public class CustomerBehavior : MonoBehaviour
         speechBubbleObj.SetActive(false);
         foodSpawner.ReleaseAllActive();
         animator.SetTrigger("Exit");
+        walkingInstance.start();
         yield return new WaitForSeconds(exitAnimation.length);
+        walkingInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        doorInstance.start();
         gameObject.SetActive(false);
     }
 
@@ -73,6 +93,8 @@ public class CustomerBehavior : MonoBehaviour
         dialogueTMP.color = originalTextColor;
         dialogueTMP.text = dialouge;
         // StartCoroutine(TextDuration(1f));
+
+        dialogueInstance.start();
     }
 
     private IEnumerator FadeText()

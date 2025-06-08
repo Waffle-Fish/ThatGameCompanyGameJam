@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
+using FMOD.Studio;
+using FMODUnity;
 
 public class FoodSpawner : MonoBehaviour
 {
@@ -17,7 +19,13 @@ public class FoodSpawner : MonoBehaviour
     [SerializeField] private bool collectionCheck = true;
     [SerializeField] private int defaultCapacity = 20;
     [SerializeField] private int maxSize = 100;
+
     private RegisterManager registerManager;
+
+    // FMOD
+    [SerializeField] private EventReference placeReference;
+
+    private EventInstance placeInstance;
 
     private void Awake()
     {
@@ -26,6 +34,8 @@ public class FoodSpawner : MonoBehaviour
         else Instance = this;
 
         activeObjects = new();
+
+        placeInstance = RuntimeManager.CreateInstance(placeReference);
         
         registerManager = FindFirstObjectByType<RegisterManager>(FindObjectsInactive.Include);
     }
@@ -77,6 +87,8 @@ public class FoodSpawner : MonoBehaviour
             spriteRef.GetPhysicsShape(0, newPointsList);
             foodObject.GetComponent<PolygonCollider2D>().points = newPointsList.ToArray();
         }
+
+        placeInstance.start();
     }
 
     public void ReleaseAllActive()

@@ -269,6 +269,27 @@ MonoBehaviour:
   customerSO: {fileID: 11400000, guid: 5acde45f108407a4e87ce6c197f0ad76, type: 2}
   enterAnimation: {fileID: 7400000, guid: 9a7ede9235c532e4486868b9acaab957, type: 2}
   exitAnimation: {fileID: 7400000, guid: 891e2603edb1239488c90adf806d013d, type: 2}
+  doorReference:
+    Guid:
+      Data1: -953544666
+      Data2: 1335245130
+      Data3: 192321456
+      Data4: 1260618190
+    Path: event:/SFX/Customer/Door
+  walkingReference:
+    Guid:
+      Data1: 1521625809
+      Data2: 1187509548
+      Data3: -1958247539
+      Data4: 1324865766
+    Path: event:/SFX/Customer/Walking
+  dialogueReference:
+    Guid:
+      Data1: 392194954
+      Data2: 1090738976
+      Data3: -10222425
+      Data4: 1684023754
+    Path: event:/SFX/Customer/Dialogue
 --- !u!95 &2956505577534376086
 Animator:
   serializedVersion: 7

@@ -1,28 +1,37 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] AudioClip hoverSFX;
-    [SerializeField] AudioClip clickSFX;
-    
+    [SerializeField] EventReference hoverReference;
+    [SerializeField] EventReference clickReference;
+
+    EventInstance hoverInstance;
+    EventInstance clickInstance;
+
     protected Image buttonImg;
 
     private void Start()
     {
         buttonImg = GetComponent<Image>();
         // buttonImg.alphaHitTestMinimumThreshold = 0.5f;
+
+        if (hoverReference.Path.Length > 0)
+            hoverInstance = RuntimeManager.CreateInstance(hoverReference);
+        clickInstance = RuntimeManager.CreateInstance(clickReference);
     }
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
-        // throw new System.NotImplementedException();
+        PlayClickSFX();
     }
 
     public virtual void OnPointerEnter(PointerEventData eventData)
     {
-        // throw new System.NotImplementedException();
+        PlayHoverSFX();
     }
 
     public virtual void OnPointerExit(PointerEventData eventData)
@@ -37,11 +46,12 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     protected void PlayHoverSFX()
     {
-        // throw new System.NotImplementedException();
+        if(hoverReference.Path.Length > 0)
+            hoverInstance.start();
     }
 
     protected void PlayClickSFX()
     {
-        // throw new System.NotImplementedException();
+        clickInstance.start();
     }
 }
