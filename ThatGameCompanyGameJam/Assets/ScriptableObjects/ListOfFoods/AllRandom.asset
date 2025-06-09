@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda27bc534a6931449cd651541bc9e70, type: 3}
+  m_Name: AllRandom
+  m_EditorClassIdentifier: 
+  FoodList:
+  - Food: {fileID: 5411440514128022370, guid: 5a8ee8aeedc172e4a813eca8a26013e7, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 8ee629e93b9d6674288f8a47a2c7e1dd, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 49c21f4c2c497e14fb85346e056a0af9, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 658ee005816ecb545b62951c88c18a13, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: bafc2a35990100e408b43be1f7cae9d1, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 8797c843d6891f24fb4ada689c278a61, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 35115a6d9fdd90146978c1e2642350da, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 317b0b1c687248f43a6d76759fbc8acf, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 42444e61e49650e4183ed33f5b71dfd4, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: bc66bfa353261094a8b56010b6911a9f, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: d8cc4fb745725ac478bb51981c842b06, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 398caea63a1a6f341890373572691159, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 68cfd8485277c2147a4a3f3620895ec8, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 411c8bdc09ade8747b34f610952f4c03, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 7845fce15c69c784db4cfa7c2c28c321, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 7c91d9471b64cd8499dcc03c6e57bd34, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 12941f2b3e3fba9468e62dcd37a99ddc, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 720a69b10e972d247a6b54988f7bd8e7, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 3ca2f6e5c78fc4542997e16942777dbf, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: d7a2536cd1d25cb498d6e1e66b3935ad, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 39ea0c8614e2eeb4bbc21f7e5f5223e3, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 5814c80a1d73365408a0be9e7fdef67b, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: c4d1e5c45ec259d449258082ae0d73fa, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 2470dcb05bbf45a48bda14d1497bd9fd, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 12d716c8d7f49bc42b2be988110fc5b2, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 9ff9964b4bdf2c2409d886f8e345f68b, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 0dab5789de1616949ad44e156aa63b52, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 9404f6c253629b14ea9c80fb62122655, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: 7603fcb115225b64e8887877d43b271f, type: 3}
+    DropChance: 0
+  - Food: {fileID: 5411440514128022370, guid: c89be6cc7743d1d4eb05ef4baab02aa3, type: 3}
+    DropChance: 0

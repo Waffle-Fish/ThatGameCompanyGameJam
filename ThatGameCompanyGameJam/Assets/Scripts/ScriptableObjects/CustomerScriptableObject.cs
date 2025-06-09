@@ -7,6 +7,7 @@ using UnityEngine;
 public class CustomerScriptableObject : ScriptableObject
 {
     public Sprite CustomerSprite;
+    public Sprite CustomerSpriteBack;
     public List<FoodBehavior> GuranteedFoodOrders;
     public RandomizedFoodListScriptableObject RandomizedFoodOrders;
 
@@ -29,11 +30,11 @@ public class CustomerScriptableObject : ScriptableObject
         FoodOrder = new();
         FoodOrder.AddRange(GuranteedFoodOrders);
         
-        // if (!RandomizedFoodOrders || RandomizedFoodOrders.FoodList.Count == 0) return;
-        // for (int i = 0; i < NumRandomFood; i++)
-        // {
-        //     FoodOrder.Add(RandomizedFoodOrders.RandomlyPickOne());
-        // }
+        if (!RandomizedFoodOrders || RandomizedFoodOrders.FoodList.Count == 0) return;
+        for (int i = 0; i < NumRandomFood; i++)
+        {
+            FoodOrder.Add(RandomizedFoodOrders.RandomlyPickOne());
+        }
     }
 
     public int GetFoodOrderTotal()
