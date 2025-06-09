@@ -6,10 +6,8 @@ using FMOD.Studio;
 
 public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] EventReference hoverReference;
     [SerializeField] EventReference clickReference;
 
-    EventInstance hoverInstance;
     EventInstance clickInstance;
 
     protected Image buttonImg;
@@ -19,10 +17,7 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         buttonImg = GetComponent<Image>();
         // buttonImg.alphaHitTestMinimumThreshold = 0.5f;
 
-        if (hoverReference.Path.Length > 0)
-            hoverInstance = RuntimeManager.CreateInstance(hoverReference);
-        if (clickReference.Path.Length > 0)
-            clickInstance = RuntimeManager.CreateInstance(clickReference);
+        clickInstance = RuntimeManager.CreateInstance(clickReference);
     }
 
     public virtual void OnPointerDown(PointerEventData eventData)
@@ -32,7 +27,7 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public virtual void OnPointerEnter(PointerEventData eventData)
     {
-        PlayHoverSFX();
+        // throw new System.NotImplementedException();
     }
 
     public virtual void OnPointerExit(PointerEventData eventData)
@@ -45,15 +40,8 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         // throw new System.NotImplementedException();
     }
 
-    protected void PlayHoverSFX()
-    {
-        if(hoverReference.Path.Length > 0)
-            hoverInstance.start();
-    }
-
     protected void PlayClickSFX()
     {
-        if (clickReference.Path.Length > 0)
-            clickInstance.start();
+        clickInstance.start();
     }
 }

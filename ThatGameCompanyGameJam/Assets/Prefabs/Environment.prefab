@@ -833,6 +833,7 @@ GameObject:
   - component: {fileID: 4744251189028262985}
   - component: {fileID: 4627614072042847219}
   - component: {fileID: 1129409459789551883}
+  - component: {fileID: 3895225857766753280}
   m_Layer: 0
   m_Name: CloseButton
   m_TagString: Untagged
@@ -965,6 +966,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &3895225857766753280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758453849434280560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1287528363
+      Data2: 1169334494
+      Data3: 1367797672
+      Data4: 1456519739
+    Path: event:/SFX/Book/Book Close
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3836630904240535934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1284,7 @@ GameObject:
   - component: {fileID: 329696124215876292}
   - component: {fileID: 8993407394944076030}
   - component: {fileID: 8505330806171604657}
+  - component: {fileID: 6852773480029049396}
   m_Layer: 0
   m_Name: RightButton
   m_TagString: Untagged
@@ -1395,6 +1428,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6852773480029049396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117440378288997391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 979220976
+      Data2: 1203945975
+      Data3: -195238253
+      Data4: -796290440
+    Path: event:/SFX/Book/Page Turn
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4153543796600783626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,6 +1918,7 @@ GameObject:
   - component: {fileID: 8655413873713801450}
   - component: {fileID: 5869573897805898287}
   - component: {fileID: 1197898512888726808}
+  - component: {fileID: 1803081163047548440}
   m_Layer: 0
   m_Name: Register
   m_TagString: Untagged
@@ -2026,20 +2091,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   clickReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -943890240
+      Data2: 1073830972
+      Data3: 1059713438
+      Data4: -335881764
+    Path: event:/SFX/Register/Enter
+--- !u!114 &1803081163047548440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5341237810065662266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -640952439
+      Data2: 1152046903
+      Data3: 1241236116
+      Data4: 100044610
+    Path: event:/SFX/UI/Hover
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &5495423894928722508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2416,7 @@ GameObject:
   - component: {fileID: 1114792327796503179}
   - component: {fileID: 8105503665749036893}
   - component: {fileID: 7631102766618662997}
+  - component: {fileID: 2775327962014280097}
   m_Layer: 0
   m_Name: LeftButton
   m_TagString: Untagged
@@ -2470,6 +2560,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2775327962014280097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686457886685398743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 979220976
+      Data2: 1203945975
+      Data3: -195238253
+      Data4: -796290440
+    Path: event:/SFX/Book/Page Turn
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &6980361456073351717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,6 +3163,7 @@ GameObject:
   - component: {fileID: 7051983882024455566}
   - component: {fileID: 9013214922351627639}
   - component: {fileID: 5708904686880217988}
+  - component: {fileID: 7051456439798845118}
   m_Layer: 0
   m_Name: RefBook
   m_TagString: Untagged
@@ -3186,20 +3308,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   clickReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1598208206
+      Data2: 1219197568
+      Data3: -937681277
+      Data4: -2016988749
+    Path: event:/SFX/Book/Book Open
+--- !u!114 &7051456439798845118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937183741004121097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -640952439
+      Data2: 1152046903
+      Data3: 1241236116
+      Data4: 100044610
+    Path: event:/SFX/UI/Hover
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8950652609582374582
 GameObject:
   m_ObjectHideFlags: 0
