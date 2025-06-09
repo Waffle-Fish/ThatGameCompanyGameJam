@@ -791,6 +791,22 @@ PrefabInstance:
       propertyPath: customerBack
       value: 
       objectReference: {fileID: 385530477714127027, guid: 145704370681d1947b643fd19641dca2, type: 3}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: introDialouge
+      value: Hey! Give me a discount if you know whats good!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: outroDialouge
+      value: Damn. Thought it would've worked
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: discountDialouge
+      value: Thanks sucker!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: overchargeDialouge
+      value: Yeah saw that coming. I'll still buy it.
+      objectReference: {fileID: 0}
     - target: {fileID: 869875285235667117, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
       propertyPath: m_Layer
       value: 2
@@ -1144,6 +1160,22 @@ PrefabInstance:
       propertyPath: customerBack
       value: 
       objectReference: {fileID: -1509650485810870423, guid: 551b0623de0b094488fbfe3aa03f5a44, type: 3}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: introDialouge
+      value: I love frogs. They taste sooo good!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: outroDialouge
+      value: I'll see you again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: discountDialouge
+      value: Oooo, thanks for that!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: overchargeDialouge
+      value: Anyprice is worth it for these delcious treats!
+      objectReference: {fileID: 0}
     - target: {fileID: 869875285235667117, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
       propertyPath: m_Layer
       value: 2
@@ -1770,6 +1802,24 @@ PrefabInstance:
       propertyPath: customerSO
       value: 
       objectReference: {fileID: 11400000, guid: 3ebe5a8979f6b8d43b8cbc22bafe76c9, type: 2}
+    - target: {fileID: 469650406765630242, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: introDialouge
+      value: I'm so tired. Night shift is brutal, but it's the only way I can survive
+        in the Capital...
+      objectReference: {fileID: 0}
+    - target: {fileID: 469650406765630242, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: outroDialouge
+      value: Mm? Oh, yeah. Thanks.
+      objectReference: {fileID: 0}
+    - target: {fileID: 469650406765630242, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: discountDialouge
+      value: Is that right...? You didn't have to do that. But I'll take it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 469650406765630242, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: overchargeDialouge
+      value: I think you must have hit the wrong key, or something. That doesn't
+        sound right...
+      objectReference: {fileID: 0}
     - target: {fileID: 1608980432058743324, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
       propertyPath: m_Name
       value: Javiar
@@ -1778,10 +1828,42 @@ PrefabInstance:
       propertyPath: customerSO
       value: 
       objectReference: {fileID: 11400000, guid: 3a39a8f03b78b7e43b857f13a7579c03, type: 2}
+    - target: {fileID: 1844181354650441765, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: introDialouge
+      value: Just need drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844181354650441765, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: outroDialouge
+      value: Thx
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844181354650441765, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: discountDialouge
+      value: Appreciate it
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844181354650441765, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: overchargeDialouge
+      value: I should've gone somewhere else
+      objectReference: {fileID: 0}
     - target: {fileID: 2454929466227071561, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
       propertyPath: customerSO
       value: 
       objectReference: {fileID: 11400000, guid: a7742dab5ba903f4a94d96203e2e3b37, type: 2}
+    - target: {fileID: 2454929466227071561, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: introDialouge
+      value: I kind of want something else to go with this. Do you have any suggestions?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454929466227071561, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: outroDialouge
+      value: These look so good, thanks!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454929466227071561, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: discountDialouge
+      value: Gosh, you're a life saver! Every little bit helps!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454929466227071561, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
+      propertyPath: overchargeDialouge
+      value: Really? Are you sure it's that much?
+      objectReference: {fileID: 0}
     - target: {fileID: 3301788690172770416, guid: a91841f3e74d8f44b8db3cd92063af79, type: 3}
       propertyPath: m_Name
       value: Jared

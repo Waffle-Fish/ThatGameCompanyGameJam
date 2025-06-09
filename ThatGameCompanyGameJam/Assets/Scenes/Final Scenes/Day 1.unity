@@ -1206,6 +1206,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roland
       objectReference: {fileID: 0}
+    - target: {fileID: 7371977734783238491, guid: 64044f43f0b9b98468ecea0494c2788c, type: 3}
+      propertyPath: introDialouge
+      value: The food here is *so* good! I want to try everything! If I could afford
+        it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371977734783238491, guid: 64044f43f0b9b98468ecea0494c2788c, type: 3}
+      propertyPath: outroDialouge
+      value: Hm, I'm gonna have to start cutting back if I want my paycheck to last...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371977734783238491, guid: 64044f43f0b9b98468ecea0494c2788c, type: 3}
+      propertyPath: discountDialouge
+      value: Really? You're on your way to having a new regular customer!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7371977734783238491, guid: 64044f43f0b9b98468ecea0494c2788c, type: 3}
+      propertyPath: overchargeDialouge
+      value: Seems more expensive than I expected...
+      objectReference: {fileID: 0}
     - target: {fileID: 7673180247434059280, guid: 64044f43f0b9b98468ecea0494c2788c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1792,7 +1809,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3299807994228196563, guid: a0a508dc4facf954fa7e59f652b542d0, type: 3}
       propertyPath: outroDialouge
+      value: Hmm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299807994228196563, guid: a0a508dc4facf954fa7e59f652b542d0, type: 3}
+      propertyPath: discountDialouge
       value: Thanks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299807994228196563, guid: a0a508dc4facf954fa7e59f652b542d0, type: 3}
+      propertyPath: overchargeDialouge
+      value: Pricey, eh!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1851,6 +1876,15 @@ PrefabInstance:
     - target: {fileID: 244334200581376550, guid: 651a6b2a9ddf65d47a278b88872a4c62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1105095902044886381, guid: 651a6b2a9ddf65d47a278b88872a4c62, type: 3}
+      propertyPath: outroDialouge
+      value: You're giving me a discount? Oh, I'll definitely be coming back!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1105095902044886381, guid: 651a6b2a9ddf65d47a278b88872a4c62, type: 3}
+      propertyPath: overchargeDialouge
+      value: That's a little more expensive than the label price, isn't it? I'll
+        buy it.
       objectReference: {fileID: 0}
     - target: {fileID: 4256887514864874808, guid: 651a6b2a9ddf65d47a278b88872a4c62, type: 3}
       propertyPath: m_Name
