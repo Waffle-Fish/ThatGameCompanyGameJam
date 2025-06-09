@@ -1128,6 +1128,10 @@ PrefabInstance:
       propertyPath: endPD
       value: 
       objectReference: {fileID: 864654646}
+    - target: {fileID: 4739246251607829539, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
+      propertyPath: quota
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6394532933809467235, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1530,7 +1534,7 @@ PrefabInstance:
     - target: {fileID: 5308884917229527901, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1132288618}
+      objectReference: {fileID: 1132288623}
     - target: {fileID: 5308884917229527901, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1541,15 +1545,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5308884917229527901, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: LoadNextScene
       objectReference: {fileID: 0}
     - target: {fileID: 5308884917229527901, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: SceneController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5308884917229527901, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5408603527754368553, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: pd
