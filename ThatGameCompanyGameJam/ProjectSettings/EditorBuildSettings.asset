@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/KornScenes/Test FMOD Integration.unity
-    guid: c7cde10ad1687ee429b287f1da3dae0a
+    path: Assets/Scenes/Final Scenes/Day 1.unity
+    guid: 836f278897471894eb73be8b8ffe469b
+  - enabled: 1
+    path: Assets/Scenes/Final Scenes/Day 2.unity
+    guid: aeb4f3ab543ca1b42b9421238dadd5e8
+  - enabled: 1
+    path: Assets/Scenes/Final Scenes/Day 3.unity
+    guid: 50795eb6f7831ed40855e7fe6cb59c6e
+  - enabled: 1
+    path: Assets/Scenes/Final Scenes/End Scene.unity
+    guid: 09dfd2f28bfc7c94d987da9241b390c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
