@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6472302322713837482}
   - component: {fileID: 1018257274511138981}
   - component: {fileID: 7624285535080100784}
-  - component: {fileID: 8440784829861368841}
   m_Layer: 5
   m_Name: Submit Button
   m_TagString: Untagged
@@ -133,37 +132,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8440784829861368841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431854581555275851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 578511834
-      Data2: 1139385399
-      Data3: 697878914
-      Data4: 694756871
-    Path: event:/SFX/Register/Cha-Ching
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &592445435573433671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,7 +1770,7 @@ MonoBehaviour:
       Data4: -1696344846
     Path: event:/SFX/Register/Type
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 19
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -2713,7 +2681,6 @@ GameObject:
   - component: {fileID: 1802057156186591018}
   - component: {fileID: 14105475510792729}
   - component: {fileID: 9167929149226772199}
-  - component: {fileID: 6779121777014918496}
   m_Layer: 5
   m_Name: Increase Button
   m_TagString: Untagged
@@ -2855,39 +2822,8 @@ MonoBehaviour:
     Path: 
   clickReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
---- !u!114 &6779121777014918496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9137391117555248910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
       Data1: 1455093985
       Data2: 1183829374
       Data3: -917494390
       Data4: -1696344846
     Path: event:/SFX/Register/Type
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20

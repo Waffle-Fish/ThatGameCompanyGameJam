@@ -48,6 +48,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AcceptablePurchaseRange: {x: 0.25, y: 0.25}
+  chachingReference:
+    Guid:
+      Data1: 578511834
+      Data2: 1139385399
+      Data3: 697878914
+      Data4: 694756871
+    Path: event:/SFX/Register/Cha-Ching
 --- !u!1001 &416943983670233573
 PrefabInstance:
   m_ObjectHideFlags: 0

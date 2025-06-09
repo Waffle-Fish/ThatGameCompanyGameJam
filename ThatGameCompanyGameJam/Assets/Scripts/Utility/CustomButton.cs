@@ -21,7 +21,8 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
         if (hoverReference.Path.Length > 0)
             hoverInstance = RuntimeManager.CreateInstance(hoverReference);
-        clickInstance = RuntimeManager.CreateInstance(clickReference);
+        if (clickReference.Path.Length > 0)
+            clickInstance = RuntimeManager.CreateInstance(clickReference);
     }
 
     public virtual void OnPointerDown(PointerEventData eventData)
@@ -52,6 +53,7 @@ public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     protected void PlayClickSFX()
     {
-        clickInstance.start();
+        if (clickReference.Path.Length > 0)
+            clickInstance.start();
     }
 }
