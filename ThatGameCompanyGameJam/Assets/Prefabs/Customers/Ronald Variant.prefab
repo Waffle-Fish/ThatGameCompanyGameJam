@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &872526283851206570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: customerBack
+      value: 
+      objectReference: {fileID: -1509650485810870423, guid: 551b0623de0b094488fbfe3aa03f5a44, type: 3}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: introDialouge
+      value: I've never been here before. The food looks absolutely pungent! It's
+        perfect.
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: outroDialouge
+      value: Right, thanks. See you next time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: discountDialouge
+      value: You're giving me a discount? Oh, I'll definitely be coming back!
+      objectReference: {fileID: 0}
+    - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: overchargeDialouge
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057592136343839644, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116851619615819148, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965514769883232914, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_Name
+      value: Ronald Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965514769883232914, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
