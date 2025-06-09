@@ -389,11 +389,11 @@ MonoBehaviour:
   maxSize: 100
   placeReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1368627851
+      Data2: 1091405231
+      Data3: 1678862218
+      Data4: 662728858
+    Path: event:/SFX/Customer/Item Placed
 --- !u!210 &43358548
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -3220,6 +3220,7 @@ GameObject:
   - component: {fileID: 801852294}
   - component: {fileID: 801852296}
   - component: {fileID: 801852297}
+  - component: {fileID: 801852298}
   m_Layer: 0
   m_Name: LeftButton
   m_TagString: Untagged
@@ -3363,6 +3364,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &801852298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801852292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 979220976
+      Data2: 1203945975
+      Data3: -195238253
+      Data4: -796290440
+    Path: event:/SFX/Book/Page Turn
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &804621907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3408,7 @@ GameObject:
   - component: {fileID: 804621909}
   - component: {fileID: 804621911}
   - component: {fileID: 804621913}
+  - component: {fileID: 804621914}
   m_Layer: 0
   m_Name: RightButton
   m_TagString: Untagged
@@ -3519,6 +3552,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &804621914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804621907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 979220976
+      Data2: 1203945975
+      Data3: -195238253
+      Data4: -796290440
+    Path: event:/SFX/Book/Page Turn
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &833163710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4123,6 +4187,7 @@ GameObject:
   - component: {fileID: 969274861}
   - component: {fileID: 969274860}
   - component: {fileID: 969274859}
+  - component: {fileID: 969274862}
   m_Layer: 0
   m_Name: CloseButton
   m_TagString: Untagged
@@ -4255,6 +4320,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969274857}
   m_CullTransparentMesh: 1
+--- !u!114 &969274862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969274857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1287528363
+      Data2: 1169334494
+      Data3: 1367797672
+      Data4: 1456519739
+    Path: event:/SFX/Book/Book Close
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &978706312
 GameObject:
   m_ObjectHideFlags: 0
@@ -5417,7 +5513,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6107,18 +6203,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -640952439
+      Data2: 1152046903
+      Data3: 1241236116
+      Data4: 100044610
+    Path: event:/SFX/UI/Hover
   clickReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -943890240
+      Data2: 1073830972
+      Data3: 1059713438
+      Data4: -335881764
+    Path: event:/SFX/Register/Enter
 --- !u!1 &1490006467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504983859897175457, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
@@ -6353,7 +6449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1558363192
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6387,18 +6483,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -640952439
+      Data2: 1152046903
+      Data3: 1241236116
+      Data4: 100044610
+    Path: event:/SFX/UI/Hover
   clickReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1598208206
+      Data2: 1219197568
+      Data3: -937681277
+      Data4: -2016988749
+    Path: event:/SFX/Book/Book Open
 --- !u!114 &1558363194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7077,6 +7173,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3295104544888834760, guid: 150bb793ec405b446826c0eaefd82bb0, type: 3}
   m_PrefabInstance: {fileID: 1939422188474384913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1692173347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3166702386541815915, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521157084489564679, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28ebfc0e953033a438d5178c89ec537e, type: 3}
 --- !u!1 &1698806768
 GameObject:
   m_ObjectHideFlags: 0
@@ -9629,3 +9782,4 @@ SceneRoots:
   - {fileID: 573064943}
   - {fileID: 1157176692}
   - {fileID: 864654645}
+  - {fileID: 1692173347}

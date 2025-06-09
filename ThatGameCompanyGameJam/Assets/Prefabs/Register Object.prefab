@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6472302322713837482}
   - component: {fileID: 1018257274511138981}
   - component: {fileID: 7624285535080100784}
+  - component: {fileID: 8440784829861368841}
   m_Layer: 5
   m_Name: Submit Button
   m_TagString: Untagged
@@ -132,6 +133,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8440784829861368841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431854581555275851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 578511834
+      Data2: 1139385399
+      Data3: 697878914
+      Data4: 694756871
+    Path: event:/SFX/Register/Cha-Ching
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &592445435573433671
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,8 +407,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 9
 --- !u!1 &1669221794392523406
 GameObject:
@@ -427,6 +471,7 @@ GameObject:
   - component: {fileID: 1662458098000177385}
   - component: {fileID: 8915987553580319220}
   - component: {fileID: 7964612278515995506}
+  - component: {fileID: 4500253956399822070}
   m_Layer: 5
   m_Name: Clear Button
   m_TagString: Untagged
@@ -547,6 +592,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4500253956399822070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736341670967484169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2050773709083602851
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,8 +831,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 2
 --- !u!1 &2389554905926928786
 GameObject:
@@ -891,8 +979,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 0
 --- !u!1 &2570764907274211828
 GameObject:
@@ -1027,8 +1127,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 1
 --- !u!1 &3106325065374924527
 GameObject:
@@ -1178,6 +1290,7 @@ GameObject:
   - component: {fileID: 3533475637873071620}
   - component: {fileID: 714513967753947139}
   - component: {fileID: 8763616376792427624}
+  - component: {fileID: 6742438647188335559}
   m_Layer: 5
   m_Name: Backspace Button
   m_TagString: Untagged
@@ -1298,6 +1411,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6742438647188335559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3649511038408593309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4504983859897175457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,6 +1508,7 @@ GameObject:
   - component: {fileID: 4330827358394772056}
   - component: {fileID: 4921879016095385685}
   - component: {fileID: 2315808012079444584}
+  - component: {fileID: 4234189202011453695}
   m_Layer: 5
   m_Name: CloseRegister
   m_TagString: Untagged
@@ -1472,6 +1617,37 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4234189202011453695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973218946480106232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1734122498
+      Data2: 1246012731
+      Data3: -1622788203
+      Data4: -736650178
+    Path: event:/SFX/Register/Exit
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &5721984089743157693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1660,7 @@ GameObject:
   - component: {fileID: 1371331028845670290}
   - component: {fileID: 26325423047261072}
   - component: {fileID: 2157833855876021222}
+  - component: {fileID: 5344090957814092407}
   m_Layer: 5
   m_Name: Decrease Button
   m_TagString: Untagged
@@ -1604,6 +1781,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5344090957814092407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5721984089743157693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7047602146425325300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,8 +1945,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 6
 --- !u!1 &7287191709581797886
 GameObject:
@@ -1873,8 +2093,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 7
 --- !u!1 &7528038149008388467
 GameObject:
@@ -2009,8 +2241,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 8
 --- !u!1 &7593583439999088844
 GameObject:
@@ -2145,8 +2389,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 5
 --- !u!1 &7821625919003092333
 GameObject:
@@ -2281,8 +2537,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 3
 --- !u!1 &8731443429478243196
 GameObject:
@@ -2417,8 +2685,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57683a72558e2a040881185ff8e53f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
   keyValue: 4
 --- !u!1 &9137391117555248910
 GameObject:
@@ -2433,6 +2713,7 @@ GameObject:
   - component: {fileID: 1802057156186591018}
   - component: {fileID: 14105475510792729}
   - component: {fileID: 9167929149226772199}
+  - component: {fileID: 6779121777014918496}
   m_Layer: 5
   m_Name: Increase Button
   m_TagString: Untagged
@@ -2565,5 +2846,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSFX: {fileID: 0}
-  clickSFX: {fileID: 0}
+  hoverReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  clickReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+--- !u!114 &6779121777014918496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9137391117555248910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1455093985
+      Data2: 1183829374
+      Data3: -917494390
+      Data4: -1696344846
+    Path: event:/SFX/Register/Type
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

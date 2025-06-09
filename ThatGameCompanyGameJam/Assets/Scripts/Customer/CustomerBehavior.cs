@@ -15,11 +15,15 @@ public class CustomerBehavior : MonoBehaviour
 
     [SerializeField] EventReference doorReference;
     [SerializeField] EventReference walkingReference;
-    [SerializeField] EventReference dialogueReference;
+    [SerializeField] EventReference neutralDialogueReference;
+    [SerializeField] EventReference happyDialogueReference;
+    [SerializeField] EventReference angryDialogueReference;
 
     private EventInstance doorInstance;
     private EventInstance walkingInstance;
-    private EventInstance dialogueInstance;
+    private EventInstance neutralDialogueInstance;
+    private EventInstance happyDialogueInstance;
+    private EventInstance angryDialogueInstance;
 
     private SpriteRenderer spriteRenderer;
     private FoodSpawner foodSpawner;
@@ -37,7 +41,9 @@ public class CustomerBehavior : MonoBehaviour
 
         doorInstance = RuntimeManager.CreateInstance(doorReference);
         walkingInstance = RuntimeManager.CreateInstance(walkingReference);
-        dialogueInstance = RuntimeManager.CreateInstance(dialogueReference);
+        neutralDialogueInstance = RuntimeManager.CreateInstance(neutralDialogueReference);
+        happyDialogueInstance = RuntimeManager.CreateInstance(happyDialogueReference);
+        angryDialogueInstance = RuntimeManager.CreateInstance(angryDialogueReference);
 
         speechBubbleObj = dialogueTMP.transform.parent.gameObject;
         originalTextColor = dialogueTMP.color;
@@ -56,6 +62,8 @@ public class CustomerBehavior : MonoBehaviour
             foodSpawner.PlaceFood(order.FoodSO);
         }
         PlayDialouge("I'll have these please");
+
+        neutralDialogueInstance.start();
     }
     public IEnumerator ProcessEntrance()
     {
@@ -93,8 +101,6 @@ public class CustomerBehavior : MonoBehaviour
         dialogueTMP.color = originalTextColor;
         dialogueTMP.text = dialouge;
         // StartCoroutine(TextDuration(1f));
-
-        dialogueInstance.start();
     }
 
     private IEnumerator FadeText()
@@ -119,16 +125,22 @@ public class CustomerBehavior : MonoBehaviour
         {
             Debug.Log("Why did you charge me so much! Whatever, take it.");
             PlayDialouge("Why did you charge me so much! Whatever, take it.");
+
+            angryDialogueInstance.start();
         }
         else if (chargedAmount < actualOrderCost - 1)
         {
             Debug.Log("Thanks for the discount!");
             PlayDialouge("Thanks for the discount!");
+
+            happyDialogueInstance.start();
         }
         else
         {
             Debug.Log("Ah you charged me just the right amount!");
             PlayDialouge("Ah you charged me just the right amount!");
+
+            neutralDialogueInstance.start();
         }
     }
 

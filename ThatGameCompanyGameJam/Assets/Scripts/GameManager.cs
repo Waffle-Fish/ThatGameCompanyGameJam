@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
     {
         if (hasStartedGame) return;
         ProcessCustomers(0);
+        AudioManager.Main.StartMusic();
         hasStartedGame = true;
         Debug.Log("The game has started!");
     }

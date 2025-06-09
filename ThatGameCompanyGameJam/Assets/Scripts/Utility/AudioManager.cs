@@ -26,7 +26,16 @@ public class AudioManager : MonoBehaviour
         sfxVCA = RuntimeManager.GetVCA("vca:/SFX");
 
         musicInstance = RuntimeManager.CreateInstance(musicReference);
+    }
+
+    public void StartMusic()
+    {
         musicInstance.start();
+    }
+
+    public void StopMusic()
+    {
+        musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     public void SetMusicVolume(float volume)
