@@ -23,6 +23,11 @@ public class RandomizedFoodListScriptableObject : ScriptableObject
     [Tooltip("If any probablities are < 0.01f, all probabilities will be set to equal")]
     public List<FoodDrop> FoodList;
 
+    private void OnEnable()
+    {
+        FixProbabilities();
+    }
+
     public void EqualizeChance()
     {
         if (FoodList.Count == 0)

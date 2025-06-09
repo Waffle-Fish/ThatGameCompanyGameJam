@@ -8,11 +8,21 @@ using FMOD.Studio;
 
 public class CustomerBehavior : MonoBehaviour
 {
+    [Header("Dialogue")]
+    [SerializeField] String introDialouge;
+    [SerializeField] String outroDialouge;
+    [SerializeField] String discountDialouge;
+    [SerializeField] String overchargeDialouge;
+
+    [Header("Animation Settings")]
     [SerializeField] CustomerScriptableObject customerSO;
     [SerializeField] AnimationClip enterAnimation;
     [SerializeField] AnimationClip exitAnimation;
     [SerializeField] Sprite customerBack;
 
+    [Header("")]
+
+    [Header("FMOD")]
     [SerializeField] EventReference doorReference;
     [SerializeField] EventReference walkingReference;
     [SerializeField] EventReference dialogueReference;
@@ -21,6 +31,7 @@ public class CustomerBehavior : MonoBehaviour
     private EventInstance walkingInstance;
     private EventInstance dialogueInstance;
 
+    [Header("Components Ref")]
     private SpriteRenderer spriteRenderer;
     private FoodSpawner foodSpawner;
     private TextMeshPro dialogueTMP;
@@ -55,7 +66,8 @@ public class CustomerBehavior : MonoBehaviour
         {
             foodSpawner.PlaceFood(order.FoodSO);
         }
-        PlayDialouge("I'll have these please");
+        if (introDialouge != "") PlayDialouge(introDialouge);
+        else PlayDialouge("I'll have these please");
     }
     public IEnumerator ProcessEntrance()
     {
@@ -115,20 +127,22 @@ public class CustomerBehavior : MonoBehaviour
     public void Pay(int chargedAmount)
     {
         int actualOrderCost = customerSO.GetFoodOrderTotal();
-        if (chargedAmount > actualOrderCost + 1)
+        if (chargedAmount > actualOrderCost)
         {
-            Debug.Log("Why did you charge me so much! Whatever, take it.");
-            PlayDialouge("Why did you charge me so much! Whatever, take it.");
+            if (overchargeDialouge != "") PlayDialouge(overchargeDialouge);
+            else PlayDialouge("Why did you charge me so much! Whatever, take it.");
+            PlayerDataManager.Instance.IncreaseCorpoEndingCounter(chargedAmount - actualOrderCost);
         }
-        else if (chargedAmount < actualOrderCost - 1)
+        else if (chargedAmount < actualOrderCost)
         {
-            Debug.Log("Thanks for the discount!");
-            PlayDialouge("Thanks for the discount!");
+            if (discountDialouge != "") PlayDialouge(discountDialouge);
+            else PlayDialouge("Thanks for the discount!");
+            PlayerDataManager.Instance.IncreaseGoodEndingCounter(actualOrderCost - chargedAmount);
         }
         else
         {
-            Debug.Log("Ah you charged me just the right amount!");
-            PlayDialouge("Ah you charged me just the right amount!");
+            if (outroDialouge != "") PlayDialouge(outroDialouge);
+            else PlayDialouge("Ah you charged me just the right amount!");
         }
     }
 

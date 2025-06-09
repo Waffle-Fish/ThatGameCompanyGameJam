@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour
 
     private void EndGame()
     {
+        if (CurrentRevenue < DailyQuota) PlayerDataManager.Instance.IncreaseMissedQuota();
         endPD.Play();
     }
 }
