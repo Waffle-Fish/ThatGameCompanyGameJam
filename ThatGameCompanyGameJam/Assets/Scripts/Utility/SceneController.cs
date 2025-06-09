@@ -7,16 +7,19 @@ public class SceneController : MonoBehaviour
 {
     public void ReloadScene()
     {
+        AudioManager.Main.StopMusic();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void LoadNextScene()
     {
+        AudioManager.Main.StopMusic();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadScene(int sceneIndex)
     {
+        AudioManager.Main.StopMusic();
         SceneManager.LoadScene(sceneIndex);
     }
 
