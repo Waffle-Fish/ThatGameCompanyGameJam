@@ -293,17 +293,17 @@ MonoBehaviour:
     Path: event:/SFX/Customer/Neutral Dialogue
   happyDialogueReference:
     Guid:
-      Data1: 516093183
-      Data2: 1176267771
-      Data3: -453874770
-      Data4: 1503816549
+      Data1: 1386940275
+      Data2: 1165243555
+      Data3: -1566419041
+      Data4: -761959738
     Path: event:/SFX/Customer/Happy Dialogue
   angryDialogueReference:
     Guid:
-      Data1: 2006824361
-      Data2: 1319414319
-      Data3: -105350744
-      Data4: -14620799
+      Data1: -777028201
+      Data2: 1155132614
+      Data3: -1815273800
+      Data4: -1024878752
     Path: event:/SFX/Customer/Angry Dialogue
 --- !u!95 &2956505577534376086
 Animator:

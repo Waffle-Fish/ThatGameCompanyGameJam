@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using FMOD.Studio;
 using FMODUnity;
 
 public class CustomersManager : MonoBehaviour
@@ -20,6 +21,9 @@ public class CustomersManager : MonoBehaviour
     RegisterManager registerManager;
 
     public static Action AllCustomersServed;
+
+    [SerializeField] EventReference chachingReference;
+    EventInstance chachingInstance;
 
     private void Awake()
     {
@@ -44,6 +48,8 @@ public class CustomersManager : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
+
+        chachingInstance = RuntimeManager.CreateInstance(chachingReference);
     }
 
     public void SpawnNextCustomer()
@@ -99,6 +105,7 @@ public class CustomersManager : MonoBehaviour
                 revenue = amountCharged;
                 registerManager.SetCanChargeCustomer(false);
                 currentCustomer.Pay(amountCharged);
+                chachingInstance.start();
                 UpdateCurrentRevenue(amountCharged);
                 StartCoroutine(DelayDespawn());
             }

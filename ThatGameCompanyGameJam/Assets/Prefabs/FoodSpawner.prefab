@@ -140,11 +140,11 @@ MonoBehaviour:
   maxSize: 100
   placeReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1368627851
+      Data2: 1091405231
+      Data3: 1678862218
+      Data4: 662728858
+    Path: event:/SFX/Customer/Item Placed
 --- !u!210 &9059760035559980589
 SortingGroup:
   m_ObjectHideFlags: 0

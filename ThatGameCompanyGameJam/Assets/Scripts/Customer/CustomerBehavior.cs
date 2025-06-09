@@ -79,6 +79,7 @@ public class CustomerBehavior : MonoBehaviour
     }
     public IEnumerator ProcessEntrance()
     {
+        RuntimeManager.StudioSystem.setParameterByName("Voice Level", UnityEngine.Random.Range(0, 2));
         doorInstance.start();
         walkingInstance.start();
         animator.SetTrigger("Enter");

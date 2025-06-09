@@ -559,6 +559,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 1711643414973703558}
+  - {fileID: 5605215388744511485}
   - {fileID: 8317218961186515870}
   - {fileID: 882436641495040147}
   - {fileID: -8565529572012874573}
@@ -1186,6 +1187,31 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &5605215388744511485
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133253f56854570409c222a87786b263, type: 3}
+  m_Name: FMOD Event Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  template:
+    volume: 1
 --- !u!74 &6267215067264546762
 AnimationClip:
   m_ObjectHideFlags: 0
