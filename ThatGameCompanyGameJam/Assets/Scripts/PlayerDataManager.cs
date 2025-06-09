@@ -13,6 +13,9 @@ public class PlayerDataManager : MonoBehaviour
     public int CorpoEndingCounter { get; private set; }
     public int MissedQuotas { get; private set; }
 
+    public int NumPplOverCharged { get; private set; }
+    public int NumPplUnderCharged { get; private set; }
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);
@@ -42,6 +45,16 @@ public class PlayerDataManager : MonoBehaviour
     public void IncreaseMissedQuota()
     {
         MissedQuotas++;
+    }
+
+    public void IncreaseNumPplOverCharged()
+    {
+        NumPplOverCharged++;
+    }
+
+    public void IncreaseNumPplUnderCharged()
+    {
+        NumPplUnderCharged++;
     }
 
     public EndingTypes GetEndingType()

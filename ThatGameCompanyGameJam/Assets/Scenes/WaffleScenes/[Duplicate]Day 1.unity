@@ -297,6 +297,21 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 4328251227065024759, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
   m_PrefabInstance: {fileID: 8719079280123777462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &211279844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211279832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68fbb6d9be48c94fb3846a2bffb4073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quotaTMP: {fileID: 1354982263}
+  underChargeTMP: {fileID: 479303699}
+  overChargeTMP: {fileID: 1904708405}
 --- !u!1 &395339586
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +471,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2047192050303292893, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
   m_PrefabInstance: {fileID: 8719079280123777462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &479303699 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4928317735216882193, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
+  m_PrefabInstance: {fileID: 8719079280123777462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &573064942
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +527,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 300
+  m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -2272903450938195910, guid: 37559142e0c9d154dacddc41e2cee5e7, type: 2}
     value: {fileID: 1872278276}
@@ -748,6 +774,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 7914102225021069432, guid: d99d962ad1c8e844d8064ea147fd23d0, type: 3}
   m_PrefabInstance: {fileID: 7269917554635372377}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1354982263 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4743160481790993000, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
+  m_PrefabInstance: {fileID: 8719079280123777462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383825271
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +989,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 8225706405645889808, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
   m_PrefabInstance: {fileID: 8719079280123777462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1904708405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1841537001910318393, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
+  m_PrefabInstance: {fileID: 8719079280123777462}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960226001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1862300125414424067, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
@@ -1322,6 +1370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NextDayButton
       objectReference: {fileID: 0}
+    - target: {fileID: 401925064035115597, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 298
+      objectReference: {fileID: 0}
     - target: {fileID: 1612550615530908417, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1660,6 +1712,9 @@ PrefabInstance:
     - {fileID: 154531525680038024, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8359337750118787286, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 211279844}
     - targetCorrespondingSourceObject: {fileID: 1862300125414424067, guid: 000238dfa4b22fe4aae1f5893fe97e67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1960226005}

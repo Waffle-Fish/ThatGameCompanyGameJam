@@ -138,6 +138,7 @@ public class CustomerBehavior : MonoBehaviour
             if (overchargeDialouge != "") PlayDialouge(overchargeDialouge);
             else PlayDialouge("Why did you charge me so much! Whatever, take it.");
             PlayerDataManager.Instance.IncreaseCorpoEndingCounter(chargedAmount - actualOrderCost);
+            PlayerDataManager.Instance.IncreaseNumPplOverCharged();
 
             angryDialogueInstance.start();
         }
@@ -146,6 +147,7 @@ public class CustomerBehavior : MonoBehaviour
             if (discountDialouge != "") PlayDialouge(discountDialouge);
             else PlayDialouge("Thanks for the discount!");
             PlayerDataManager.Instance.IncreaseGoodEndingCounter(actualOrderCost - chargedAmount);
+            PlayerDataManager.Instance.IncreaseNumPplUnderCharged();
 
             happyDialogueInstance.start();
         }
