@@ -1732,7 +1732,7 @@ PrefabInstance:
       objectReference: {fileID: 864654646}
     - target: {fileID: 4739246251607829539, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
       propertyPath: quota
-      value: 700
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 6394532933809467235, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
       propertyPath: m_LocalPosition.x

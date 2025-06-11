@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 820031703}
   - component: {fileID: 820031705}
   m_Layer: 5
-  m_Name: AMoralEnding (3)
+  m_Name: GoodEnding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3414,7 +3414,7 @@ MonoBehaviour:
   intro: {fileID: 11400000, guid: c49121bbc87471442825adb7c8436642, type: 2}
   goodEnding: {fileID: 11400000, guid: 897c5c8ed46529548b34863e99a5da29, type: 2}
   badEnding: {fileID: 11400000, guid: bc2c72d351096e34b9bc2321d62a9e4c, type: 2}
-  neutralEnding: {fileID: 11400000, guid: 30faea0232a200748856b1e9e7b5eb98, type: 2}
+  neutralEnding: {fileID: 11400000, guid: 897c5c8ed46529548b34863e99a5da29, type: 2}
   corpoEnding: {fileID: 11400000, guid: ed8543427e8177b42a841bdc36232428, type: 2}
 --- !u!1 &1834717683
 GameObject:

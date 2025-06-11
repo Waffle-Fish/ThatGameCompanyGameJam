@@ -1618,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 238058382454725319, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
       propertyPath: overchargeDialouge
-      value: It costs that much! Not cowabunga at all.
+      value: It costs that much! Not cowabunga at all
       objectReference: {fileID: 0}
     - target: {fileID: 869875285235667117, guid: 0758699e511a07d43a1c2b9f1a261f71, type: 3}
       propertyPath: m_Layer
@@ -2377,7 +2377,7 @@ PrefabInstance:
       objectReference: {fileID: 864654646}
     - target: {fileID: 4739246251607829539, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
       propertyPath: quota
-      value: 700
+      value: 1200
       objectReference: {fileID: 0}
     - target: {fileID: 6394532933809467235, guid: a4d7eb4b427e04741bd593506aa85dc1, type: 3}
       propertyPath: m_LocalPosition.x

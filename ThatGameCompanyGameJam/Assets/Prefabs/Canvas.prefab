@@ -565,12 +565,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3429426900904026873}
   - {fileID: 7155268715683464440}
   - {fileID: 3504843641462665435}
   - {fileID: 4689792909507941142}
   - {fileID: 6699871282714848426}
   - {fileID: 3727630667659776005}
-  - {fileID: 3429426900904026873}
   - {fileID: 5871510013921194987}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -950,13 +950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e97ecb983fcb6a47a186c53d5b65574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   clickReference:
     Guid:
       Data1: 0
@@ -2392,13 +2385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ac32da8f46b1446b14ab962d7fc1dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   clickReference:
     Guid:
       Data1: 0
